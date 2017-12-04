@@ -1,3 +1,6 @@
+body{
+  background-color: #222222;
+}
 #nav{
   position: absolute;
   top: 25%;
@@ -10,29 +13,26 @@
   -ms-transform: skewY(-15deg);
   -o-transform: skewY(-15deg);
   transform: skewY(-15deg);
-  -webkit-transform-origin: 0% 100%;
-  transform-origin: 0% 100%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
   padding: 0;
-  overflow: hidden;
 }
-
+#name_box{
+  width: 50%;
+  height: 80%;
+  top: 10%;
+  background-color: blue;
+  position: absolute;
+  -webkit-transform-origin: middle left;
+  transform-origin: middle left;
+}
 #name{
   font-family: sans-serif;
-  font-size: 50pt;
+  font-size: 3vw;
+  font-weight: bold;
+  line-height: 0.8;
   background-color: blue;
-  left: 3%;
   position: absolute;
-  -webkit-transform-origin: 0% 100%;
-  transform-origin: 0% 100%;
-}
-#menu{
-  font-family: monospace;
-  font-size: 20pt;
-  background-color: blue;
-  left: 3%;
-  top: 35%;
-  position: absolute;
-  list-style-type: none;
-  -webkit-transform-origin: 0% 100%;
-  transform-origin: 0% 100%;
+  margin: 0;
+  margin-left: 5%;
 }
