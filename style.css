@@ -2,6 +2,11 @@ body{
   background-color: #222222
   ;
 }
+.links{
+  color:black
+
+}
+
 
 #nav{
   position: absolute;
@@ -127,16 +132,16 @@ body{
   height: 100%;
   position: absolute;
   left: 25%;
-
+  -webkit-transition: width 0.2s, left 0.2s;
+  transition: width 0.2s, left 0.2s;
 }
 #content_1_header:hover{
   background-color: white;
   width: 15%;
   height: 100%;
   position: absolute;
-  left: 25%;
-  -webkit-transition: width 0.2s;
-  transition: width 0.2s;
+  left: 23%;
+
 }
 #content_1_h1{
   -webkit-transform-origin: top left;
@@ -144,22 +149,6 @@ body{
   position: relative;
   font-family: sans-serif;
   font-size: 3vw;
-  font-weight: bold;
-  margin: 0;
-  left: 20%;
-  top: 95%;
-  white-space: nowrap;
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-}
-#content_1_h1:hover{
-  -webkit-transform-origin: top left;
-  transform-origin: top left;
-  position: relative;
-  font-family: sans-serif;
-  font-size: 5vw;
   font-weight: bold;
   margin: 0;
   left: 20%;
@@ -193,16 +182,15 @@ body{
   left: 25%;
   overflow: hidden;
   padding: 0;
-
+  -webkit-transition: width 0.2s, left 0.2s;
+  transition: width 0.2s, left 0.2s;
 }
 #content_2_header:hover{
   background-color: white;
   width: 15%;
   height: 100%;
   position: absolute;
-  left: 25%;
-  -webkit-transition: width 0.2s;
-  transition: width 0.2s;
+  left: 23%;
 }
 #content_2_h1{
   -webkit-transform: rotate(-90deg);
@@ -241,15 +229,15 @@ body{
   height: 100%;
   position: absolute;
   left: 25%;
+  -webkit-transition: width 0.2s, left 0.2s;
+  transition: width 0.2s, left 0.2s;
 }
 #content_3_header:hover{
   background-color: white;
   width: 15%;
   height: 100%;
   position: absolute;
-  left: 25%;
-  -webkit-transition: width 0.2s;
-  transition: width 0.2s;
+  left: 23%;
 }
 #content_3_h1{
   -webkit-transform: rotate(-90deg);
