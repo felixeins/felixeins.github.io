@@ -1,27 +1,19 @@
 body{
-  background-color: #222222
+  background-color: white,
   ;
 }
 .links{
   color: blue;
 }
 
-#test{
-  background-color: black;
-  height: 100%;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  top: 0;
-  left: 38%;
-}
+
 
 #head_nav{
   height: 25%;
   width: 30%;
 
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 8%; /* achse im bild bei 38 minus weite vom kasten */
   text-align: right;
   font-family: helvetica;
@@ -30,11 +22,24 @@ body{
   line-height: 0.8em;
   margin: 0;
   padding: 0;
-  -ms-transform: skewY(10deg); /* IE 9 */
-  -webkit-transform: skewY(10deg); /* Safari */
-  transform: skewY(10deg);
+  -ms-transform: skewY(-10deg); /* IE 9 */
+  -webkit-transform: skewY(-10deg); /* Safari */
+  transform: skewY(-10deg);
   transform-origin: top right;
   color: white;
+}
+
+#right_mask{
+  -ms-transform: skewY(-10deg); /* IE 9 */
+  -webkit-transform: skewY(-10deg); /* Safari */
+  transform: skewY(-10deg);
+  transform-origin: top left;
+  background-color: white;
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  left: 0;
 }
 
 #top_bg{
@@ -47,5 +52,5 @@ body{
   background-image: url("top_bg.png");
   background-attachment: fixed;
   background-size: cover;
-  z-index: -1;
+  z-index: -10;
 }
