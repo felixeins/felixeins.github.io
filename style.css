@@ -6,8 +6,6 @@ body{
   color: blue;
 }
 
-
-
 #head_nav{
   height: 25%;
   width: 30%;
@@ -134,4 +132,34 @@ body{
   background-attachment: fixed;
   background-size: cover;
   z-index: -10;
+}
+
+@media screen and (max-width:1700px) {
+  #content_1{
+    font-size: 2em;
+  }
+  #content_2{
+    font-size: 2em;
+  }
+  #content_3{
+    font-size: 2em;
+  }
+  #content_1_box{
+    top:3%;
+  }
+  #content_2_box{
+    top:3%;
+  }
+  #content_3_box{
+    top:3%;
+  }
+
+}
+@media screen and (max-width:1500px) {
+  #content_mask{
+    top: 45%
+  }
+  #head_nav{
+    font-size: 7em;
+  }
 }
