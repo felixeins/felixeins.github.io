@@ -32,7 +32,7 @@ body{
   transform: skewY(-10deg);
   transform-origin: top left;
   background-color: white;
-  height: 40%;
+  height: 60%;
   width: 100%;
   position: absolute;
   top: 70%;
@@ -46,6 +46,7 @@ body{
   top: 40%;
   left: 0;
   overflow: hidden;
+  background-color: blue;
 }
 #content{
   -ms-transform: skewY(-10deg); /* IE 9 */
@@ -54,9 +55,10 @@ body{
   width: 95%;
   height: 100%;
   position: absolute;
-  top: 0%;
+  top: 70%;
   left: 2.5%;
-  transform-origin: top right;
+  transform-origin: top left;
+  background-color: pink;
 }
 #content_1{
   height: 100%;
