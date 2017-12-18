@@ -133,10 +133,12 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("top_bg.png");
   background-attachment: fixed;
   background-size: cover;
   z-index: -10;
+}
+#top_bg_img{
+  width:100%;
 }
 
 @media screen and (max-width:1700px) {
@@ -193,15 +195,15 @@ body{
     top: 25%
   }
 }
-@media screen and (max-height:900px) {
-  #head_nav{
-    top: 25%;
-    font-size: 7em;
+@media screen and (max-width:800px) {
+  #content_mask{
+    top: 45%
   }
-}
-@media screen and (max-height:700px) {
   #head_nav{
-    top: 15%;
-    font-size: 5em;
+    font-size: 1em;
+    top:5%
+  }
+  #right_mask{
+    top: 25%
   }
 }
