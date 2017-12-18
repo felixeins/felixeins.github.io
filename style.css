@@ -6,6 +6,10 @@ body{
   color: blue;
 }
 
+#FUCKME{
+  font-size: 15em;
+}
+
 #head_nav{
   height: 25%;
   width: 30%;
@@ -14,7 +18,7 @@ body{
   left: 8%; /* achse im bild bei 38 minus weite vom kasten */
   text-align: right;
   font-family: helvetica;
-  font-size: 8em;
+  font-size: 15em;
   font-weight: bold;
   line-height: 0.8em;
   margin: 0;
