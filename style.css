@@ -32,7 +32,7 @@ body{
   -webkit-transform: skewY(-10deg); /* Safari */
   transform: skewY(-10deg);
   transform-origin: top left;
-  background-color: grey;
+  background-color: white;
   height: 60%;
   width: 100%;
   position: absolute;
@@ -131,12 +131,10 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  background-color: green;
+  background-image: url("top_bg.png");
+  background-attachment: fixed;
+  background-size: cover;
   z-index: -10;
-  overflow: hidden;
-}
-#top_bg_img{
-  width:100%;
 }
 
 @media screen and (max-width:1700px) {
@@ -187,7 +185,7 @@ body{
   }
   #head_nav{
     font-size: 3em;
-    top:10%;
+    top:10%
   }
   #right_mask{
     top: 25%
