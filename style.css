@@ -158,12 +158,12 @@ body{
     font-size: 3em;
   }
 }
-@media screen and (max-width:450px),screen and (max-height:500px) {
+@media screen and (max-width:450px) {
   #right_mask{
-    top: 100px;
+    top: 150px;
   }
   #head_nav{
-    top:2%;
+    top:5%;
     font-size: 1.7em;
   }
 }
