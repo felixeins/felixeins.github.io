@@ -6,9 +6,7 @@ body{
   color: blue;
 }
 
-#FUCKME{
-  font-size: 15em;
-}
+
 
 #head_nav{
   height: 25%;
@@ -18,7 +16,7 @@ body{
   left: 8%; /* achse im bild bei 38 minus weite vom kasten */
   text-align: right;
   font-family: helvetica;
-  font-size: 15em;
+  font-size: 8em;
   font-weight: bold;
   line-height: 0.8em;
   margin: 0;
@@ -37,7 +35,7 @@ body{
   transform: skewY(-10deg);
   transform-origin: top left;
   background-color: white;
-  height: 60%;
+  height: 160%;
   width: 100%;
   position: absolute;
   top: 70%;
@@ -193,5 +191,17 @@ body{
   }
   #right_mask{
     top: 25%
+  }
+}
+@media screen and (max-height:900px) {
+  #head_nav{
+    top: 25%;
+    font-size: 7em;
+  }
+}
+@media screen and (max-height:700px) {
+  #head_nav{
+    top: 15%;
+    font-size: 5em;
   }
 }
