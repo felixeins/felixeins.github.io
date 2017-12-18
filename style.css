@@ -26,7 +26,6 @@ body{
   transform: skewY(-10deg);
   transform-origin: top right;
   color: white;
-  background-color: purple;
 }
 
 #right_mask{
@@ -138,14 +137,16 @@ body{
   }
   #head_nav{
     top:25%;
+    font-size: 7em;
   }
 }
 @media screen and (max-width:1500px) {
   #right_mask{
-    top: 500px;
+    top: 450px;
   }
   #head_nav{
     top:20%;
+    font-size: 5em;
   }
 }
 @media screen and (max-width:800px) {
@@ -154,14 +155,15 @@ body{
   }
   #head_nav{
     top:10%;
+    font-size: 3em;
   }
 }
 @media screen and (max-width:450px),screen and (max-height:500px) {
   #right_mask{
-    top: 150px;
+    top: 100px;
   }
   #head_nav{
-    top:5%;
-    font-size: 1.5em;
+    top:2%;
+    font-size: 1.7em;
   }
 }
