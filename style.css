@@ -69,6 +69,19 @@
     top: 70%;
   }
 }
+@media (max-width: 1050px){
+  #video{
+    display: none;
+  }
+  .container{
+    background-image:url(bg_mobile.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .name{
+    top:70%;
+  }
+}
 @media (max-width: 820px){
   #video{
     display: none;
