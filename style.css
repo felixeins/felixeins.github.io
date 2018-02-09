@@ -74,6 +74,11 @@
     width: 300%;
     left: -100%;
   }
+  .container{
+    background-image:url(mobile_bg.jpg);
+    background-position: center;
+    background-size: cover;
+  }
   .name{
     font-size: 2vh;
     top:65%;
@@ -83,6 +88,11 @@
   #video{
     width: 400%;
     left: -150%;
+  }
+  .container{
+    background-image:url(mobile_bg.jpg);
+    background-position: center;
+    background-size: cover;
   }
   .name{
     font-size: 1.7vh;
