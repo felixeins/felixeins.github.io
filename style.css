@@ -62,8 +62,8 @@
 }
 @media (max-width: 1080px){
   #video{
-    width: 200%;
-    left: -50%;
+    width: 250%;
+    left: -75%;
   }
   .name{
     top: 70%;
@@ -71,11 +71,10 @@
 }
 @media (max-width: 820px){
   #video{
-    width: 300%;
-    left: -100%;
+    display: none;
   }
   .container{
-    background-image:url(mobile_bg.jpg);
+    background-image:url(bg_mobile.png);
     background-position: center;
     background-size: cover;
   }
@@ -86,11 +85,10 @@
 }
 @media (max-width: 550px){
   #video{
-    width: 400%;
-    left: -150%;
+    display: none;
   }
   .container{
-    background-image:url(mobile_bg.jpg);
+    background-image:url(bg_mobile.png);
     background-position: center;
     background-size: cover;
   }
@@ -104,7 +102,7 @@
     display: none;
   }
   .container{
-    background-image:url(mobile_bg.jpg);
+    background-image:url(bg_mobile.png);
     background-position: center;
     background-size: cover;
   }
