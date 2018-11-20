@@ -20,17 +20,14 @@
     <lastmod>2018-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://das fenster zur mauer.de/archiv.html</loc>
-    <lastmod>2018-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://das fenster zur mauer.de/kontaktimpressum.html</loc>
-    <lastmod>2018-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://das fenster zur mauer.de/images/logo-mitte.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://das fenster zur mauer.de/images/dauerausstellung-ddr-in-der-kulturbrauerei-3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://das fenster zur mauer.de/images/266172918-kiosk-kassel-historisch-qmhg.jpg</image:loc>
+    </image:image>
   </url>
 </urlset>

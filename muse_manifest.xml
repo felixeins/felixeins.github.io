@@ -1,23 +1,24 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="das fenster zur mauer.de" resolutions="1x" timestamp="1542734753056">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="das fenster zur mauer.de" resolutions="1x" timestamp="1542745280458">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4234407732" ref="index"/>
-    <file name="archiv.css" crc="4212820704" ref="archiv"/>
-    <file name="nomq_index.css" crc="4207609461" ref="index"/>
-    <file name="kontaktimpressum.css" crc="4212820704" ref="kontaktimpressum"/>
-    <file name="editorial.css" crc="4212820704" ref="editorial"/>
+    <file name="index.css" crc="54469456" ref="index"/>
+    <file name="nomq_index.css" crc="3977095221" ref="index"/>
+    <file name="editorial.css" crc="4163494404" ref="editorial"/>
+    <file name="master_a-musters.css" crc="4013470013" ref="editorial"/>
+    <file name="nomq_preview_master_a-musters.css" crc="3824530138" ref="editorial"/>
+    <file name="nomq_editorial.css" crc="295505211" ref="editorial"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:editorial:archiv:kontaktimpressum"/>
-    <file name="museutils.js" crc="340535759" ref="index:editorial:archiv:kontaktimpressum"/>
-    <file name="whatinput.js" crc="86476730" ref="index:editorial:archiv:kontaktimpressum"/>
-    <file name="museconfig.js" crc="4286661555" ref="index:editorial:archiv:kontaktimpressum"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:editorial:archiv:kontaktimpressum"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
-    <file name="require.js" crc="7928878" ref="index:editorial:archiv:kontaktimpressum"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:editorial"/>
+    <file name="museutils.js" crc="340535759" ref="index:editorial"/>
+    <file name="whatinput.js" crc="86476730" ref="index:editorial"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:editorial"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:editorial"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:editorial"/>
+    <file name="require.js" crc="7928878" ref="index:editorial"/>
     <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:editorial:archiv:kontaktimpressum"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:editorial"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:editorial"/>
   </folder>
   <folder name="images">
     <file name="the_story_of_berlin_wall (15)_1.gif" crc="267028645" seo="true" ref="index">
@@ -26,8 +27,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="logo-mitte.svg" crc="4122990370" seo="true" ref="index">
+    <file name="logo-mitte.svg" crc="4122990370" seo="true" ref="index:editorial">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -38,6 +41,18 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
     </file>
     <file name="logo mitte_poster_.png" crc="4247755654" ref="index"/>
     <file name="scroll-pfeil.svg" crc="326955513" seo="true" ref="index">
@@ -46,11 +61,13 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="scroll pfeil_poster_.png" crc="487391570" ref="index"/>
-    <file name="u1295-4.png" crc="480492259" ref="index"/>
-    <file name="u1294-4.png" crc="189465883" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u1295-4.png" crc="4146822646" ref="index"/>
+    <file name="u1294-4.png" crc="117940809" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:editorial"/>
     <file name="u781.png" crc="3855939988" ref="index"/>
     <file name="u781-a.png" crc="209158254" ref="index"/>
     <file name="u877.png" crc="73042268" ref="index"/>
@@ -58,14 +75,14 @@
     <file name="u962.png" crc="34401687" ref="index"/>
     <file name="u962-a.png" crc="186959634" ref="index"/>
     <file name="u1295-42.png" crc="3850172416" ref="index"/>
-    <file name="u1294-42.png" crc="183992328" ref="index"/>
+    <file name="u1294-42.png" crc="4028430374" ref="index"/>
     <file name="u7812.png" crc="387655123" ref="index"/>
     <file name="u781-a2.png" crc="4094153882" ref="index"/>
     <file name="u8772.png" crc="3878638598" ref="index"/>
     <file name="u877-a2.png" crc="3829777770" ref="index"/>
     <file name="u9622.png" crc="3820596766" ref="index"/>
     <file name="u962-a2.png" crc="4101712183" ref="index"/>
-    <file name="u1294-43.png" crc="334845621" ref="index"/>
+    <file name="u1294-43.png" crc="58872963" ref="index"/>
     <file name="u1295-43.png" crc="3850172416" ref="index"/>
     <file name="u7813.png" crc="168955812" ref="index"/>
     <file name="u781-a3.png" crc="112915740" ref="index"/>
@@ -73,25 +90,67 @@
     <file name="u877-a3.png" crc="3878149971" ref="index"/>
     <file name="u9623.png" crc="1723179" ref="index"/>
     <file name="u962-a3.png" crc="106267722" ref="index"/>
-    <file name="u1295-44.png" crc="133239235" ref="index"/>
-    <file name="u7814.png" crc="4170375875" ref="index"/>
-    <file name="u781-a4.png" crc="484943976" ref="index"/>
-    <file name="u8774.png" crc="4148268308" ref="index"/>
-    <file name="u877-a4.png" crc="3833178079" ref="index"/>
-    <file name="u9624.png" crc="240715938" ref="index"/>
-    <file name="u962-a4.png" crc="464514230" ref="index"/>
-    <file name="u1294-44.png" crc="4077493015" ref="index"/>
-    <file name="u1295-45.png" crc="133239235" ref="index"/>
-    <file name="u7815.png" crc="4170375875" ref="index"/>
-    <file name="u781-a5.png" crc="484943976" ref="index"/>
-    <file name="u8775.png" crc="4148268308" ref="index"/>
-    <file name="u877-a5.png" crc="3833178079" ref="index"/>
-    <file name="u9625.png" crc="240715938" ref="index"/>
-    <file name="u962-a5.png" crc="464514230" ref="index"/>
-    <file name="u1294-45.png" crc="4077493015" ref="index"/>
+    <file name="u1295-44.png" crc="4290003282" ref="index"/>
+    <file name="u7814.png" crc="491722752" ref="index"/>
+    <file name="u781-a4.png" crc="3926567515" ref="index"/>
+    <file name="u8774.png" crc="530337115" ref="index"/>
+    <file name="u877-a4.png" crc="321492500" ref="index"/>
+    <file name="u9624.png" crc="289329734" ref="index"/>
+    <file name="u962-a4.png" crc="386849787" ref="index"/>
+    <file name="u1294-44.png" crc="4049278466" ref="index"/>
+    <file name="u1295-45.png" crc="4290003282" ref="index"/>
+    <file name="u7815.png" crc="3967627276" ref="index"/>
+    <file name="u781-a5.png" crc="256806001" ref="index"/>
+    <file name="u8775.png" crc="335496206" ref="index"/>
+    <file name="u877-a5.png" crc="4252703821" ref="index"/>
+    <file name="u9625.png" crc="4092757646" ref="index"/>
+    <file name="u962-a5.png" crc="128915389" ref="index"/>
+    <file name="u1294-45.png" crc="4049278466" ref="index"/>
+    <file name="u1294-46.png" crc="4242289528" ref="index"/>
+    <file name="u1295-46.png" crc="4172978133" ref="index"/>
+    <file name="u7816.png" crc="4170375875" ref="index"/>
+    <file name="u781-a6.png" crc="484943976" ref="index"/>
+    <file name="u8776.png" crc="4148268308" ref="index"/>
+    <file name="u877-a6.png" crc="3833178079" ref="index"/>
+    <file name="u9626.png" crc="240715938" ref="index"/>
+    <file name="u962-a6.png" crc="464514230" ref="index"/>
+    <file name="u7817.png" crc="4170375875" ref="index"/>
+    <file name="u781-a7.png" crc="484943976" ref="index"/>
+    <file name="u8777.png" crc="4148268308" ref="index"/>
+    <file name="u877-a7.png" crc="3833178079" ref="index"/>
+    <file name="u9627.png" crc="240715938" ref="index"/>
+    <file name="u962-a7.png" crc="464514230" ref="index"/>
+    <file name="u1295-47.png" crc="4168809733" ref="index"/>
+    <file name="u1294-47.png" crc="441175192" ref="index"/>
+    <file name="dauerausstellung-ddr-in-der-kulturbrauerei-3.jpg" crc="370194462" seo="true" ref="editorial">
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+    </file>
+    <file name="266172918-kiosk-kassel-historisch-qmhg.jpg" crc="4099622830" seo="true" ref="editorial">
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+      <caption webpage="editorial" alt=""/>
+    </file>
+    <file name="u3076-4.png" crc="12491089" ref="editorial"/>
+    <file name="u3076-42.png" crc="314276299" ref="editorial"/>
+    <file name="u3076-43.png" crc="314276299" ref="editorial"/>
+    <file name="u3076-44.png" crc="314276299" ref="editorial"/>
+    <file name="u3076-45.png" crc="314276299" ref="editorial"/>
+    <file name="u3076-46.png" crc="314276299" ref="editorial"/>
+    <file name="u3076-47.png" crc="314276299" ref="editorial"/>
+    <file name="u3076-48.png" crc="314276299" ref="editorial"/>
   </folder>
-  <file name="index.html" crc="4273446590" seo="true" mt="1542734686348" redirect="true"/>
-  <file name="editorial.html" crc="3930130467" seo="true" mt="1542732282068" redirect="false"/>
-  <file name="archiv.html" crc="3997201666" seo="true" mt="1542732291806" redirect="false"/>
-  <file name="kontaktimpressum.html" crc="3886456990" seo="true" mt="1542732307273" redirect="false"/>
+  <file name="index.html" crc="4143023306" seo="true" mt="1542744963130" redirect="true"/>
+  <file name="editorial.html" crc="3903863790" seo="true" mt="1542745177680" redirect="true"/>
 </manifest>
