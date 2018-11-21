@@ -1,24 +1,26 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="das fenster zur mauer.de" resolutions="1x" timestamp="1542814252272">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="das fenster zur mauer.de" resolutions="1x" timestamp="1542842102939">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3893551683" ref="index"/>
-    <file name="nomq_index.css" crc="287567555" ref="index"/>
-    <file name="editorial.css" crc="4163494404" ref="editorial"/>
-    <file name="master_a-musters.css" crc="4013470013" ref="editorial"/>
-    <file name="nomq_preview_master_a-musters.css" crc="3824530138" ref="editorial"/>
-    <file name="nomq_editorial.css" crc="295505211" ref="editorial"/>
+    <file name="index.css" crc="202367338" ref="index"/>
+    <file name="nomq_index.css" crc="276398454" ref="index"/>
+    <file name="editorial.css" crc="37790601" ref="editorial"/>
+    <file name="master_a-musters.css" crc="102298983" ref="editorial:artikel-1-eilat"/>
+    <file name="nomq_preview_master_a-musters.css" crc="3824530138" ref="editorial:artikel-1-eilat"/>
+    <file name="nomq_editorial.css" crc="4107014728" ref="editorial"/>
+    <file name="artikel-1-eilat.css" crc="3998423534" ref="artikel-1-eilat"/>
+    <file name="nomq_artikel-1-eilat.css" crc="480694330" ref="artikel-1-eilat"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:editorial"/>
-    <file name="museutils.js" crc="340535759" ref="index:editorial"/>
-    <file name="whatinput.js" crc="86476730" ref="index:editorial"/>
-    <file name="museconfig.js" crc="4286661555" ref="index:editorial"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:editorial"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:editorial"/>
-    <file name="require.js" crc="7928878" ref="index:editorial"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:editorial"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index:editorial"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:editorial:artikel-1-eilat"/>
+    <file name="museutils.js" crc="340535759" ref="index:editorial:artikel-1-eilat"/>
+    <file name="whatinput.js" crc="86476730" ref="index:editorial:artikel-1-eilat"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:editorial:artikel-1-eilat"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:editorial:artikel-1-eilat"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:editorial:artikel-1-eilat"/>
+    <file name="require.js" crc="7928878" ref="index:editorial:artikel-1-eilat"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:editorial:artikel-1-eilat"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:editorial:artikel-1-eilat"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:editorial:artikel-1-eilat"/>
   </folder>
   <folder name="images">
     <file name="the_story_of_berlin_wall (15)_1.gif" crc="267028645" seo="true" ref="index">
@@ -30,7 +32,7 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="logo-mitte.svg" crc="4122990370" seo="true" ref="index:editorial">
+    <file name="logo-mitte.svg" crc="4122990370" seo="true" ref="index:editorial:artikel-1-eilat">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -45,7 +47,21 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="editorial" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
       <caption webpage="editorial" alt=""/>
       <caption webpage="editorial" alt=""/>
       <caption webpage="editorial" alt=""/>
@@ -55,7 +71,7 @@
       <caption webpage="editorial" alt=""/>
     </file>
     <file name="logo mitte_poster_.png" crc="4247755654" ref="index"/>
-    <file name="scroll-pfeil.svg" crc="326955513" seo="true" ref="index">
+    <file name="scroll-pfeil.svg" crc="326955513" seo="true" ref="index:artikel-1-eilat">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -63,11 +79,27 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
     </file>
     <file name="scroll pfeil_poster_.png" crc="487391570" ref="index"/>
     <file name="u1295-4.png" crc="4146822646" ref="index"/>
     <file name="u1294-4.png" crc="117940809" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:editorial"/>
+    <file name="blank.gif" crc="4208392903" ref="index:editorial:artikel-1-eilat"/>
     <file name="u781.png" crc="3855939988" ref="index"/>
     <file name="u781-a.png" crc="209158254" ref="index"/>
     <file name="u877.png" crc="73042268" ref="index"/>
@@ -122,35 +154,168 @@
     <file name="u962-a7.png" crc="464514230" ref="index"/>
     <file name="u1295-47.png" crc="4168809733" ref="index"/>
     <file name="u1294-47.png" crc="441175192" ref="index"/>
-    <file name="dauerausstellung-ddr-in-der-kulturbrauerei-3.jpg" crc="370194462" seo="true" ref="editorial">
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
+    <file name="u4247-4.png" crc="481836675" ref="editorial"/>
+    <file name="u4442-10.png" crc="4260500158" ref="editorial"/>
+    <file name="u3721-4-a.png" crc="209158254" ref="editorial"/>
+    <file name="u3725.png" crc="73042268" ref="editorial"/>
+    <file name="u3725-a.png" crc="4293610304" ref="editorial"/>
+    <file name="u3733.png" crc="34401687" ref="editorial"/>
+    <file name="u3733-a.png" crc="186959634" ref="editorial"/>
+    <file name="u4247-42.png" crc="149752562" ref="editorial"/>
+    <file name="u4442-102.png" crc="6965515" ref="editorial"/>
+    <file name="u3721-4-a2.png" crc="4094153882" ref="editorial"/>
+    <file name="u37252.png" crc="3878638598" ref="editorial"/>
+    <file name="u3725-a2.png" crc="3829777770" ref="editorial"/>
+    <file name="u37332.png" crc="3820596766" ref="editorial"/>
+    <file name="u3733-a2.png" crc="4101712183" ref="editorial"/>
+    <file name="u4247-43.png" crc="149752562" ref="editorial"/>
+    <file name="u4442-103.png" crc="6965515" ref="editorial"/>
+    <file name="u3721-4-a3.png" crc="112915740" ref="editorial"/>
+    <file name="u37253.png" crc="3985551319" ref="editorial"/>
+    <file name="u3725-a3.png" crc="3878149971" ref="editorial"/>
+    <file name="u37333.png" crc="1723179" ref="editorial"/>
+    <file name="u3733-a3.png" crc="106267722" ref="editorial"/>
+    <file name="u4247-44.png" crc="149752562" ref="editorial"/>
+    <file name="u4442-104.png" crc="6965515" ref="editorial"/>
+    <file name="u3721-4-a4.png" crc="209158254" ref="editorial"/>
+    <file name="u37254.png" crc="73042268" ref="editorial"/>
+    <file name="u3725-a4.png" crc="4293610304" ref="editorial"/>
+    <file name="u37334.png" crc="34401687" ref="editorial"/>
+    <file name="u3733-a4.png" crc="186959634" ref="editorial"/>
+    <file name="u4247-45.png" crc="149752562" ref="editorial"/>
+    <file name="u4442-105.png" crc="6965515" ref="editorial"/>
+    <file name="u3721-4-a5.png" crc="209158254" ref="editorial"/>
+    <file name="u37255.png" crc="73042268" ref="editorial"/>
+    <file name="u3725-a5.png" crc="4293610304" ref="editorial"/>
+    <file name="u37335.png" crc="34401687" ref="editorial"/>
+    <file name="u3733-a5.png" crc="186959634" ref="editorial"/>
+    <file name="u4247-46.png" crc="149752562" ref="editorial"/>
+    <file name="u4442-106.png" crc="6965515" ref="editorial"/>
+    <file name="u3721-4-a6.png" crc="209158254" ref="editorial"/>
+    <file name="u37256.png" crc="73042268" ref="editorial"/>
+    <file name="u3725-a6.png" crc="4293610304" ref="editorial"/>
+    <file name="u37336.png" crc="34401687" ref="editorial"/>
+    <file name="u3733-a6.png" crc="186959634" ref="editorial"/>
+    <file name="u4247-47.png" crc="149752562" ref="editorial"/>
+    <file name="u4442-107.png" crc="6965515" ref="editorial"/>
+    <file name="u3721-4-a7.png" crc="209158254" ref="editorial"/>
+    <file name="u37257.png" crc="73042268" ref="editorial"/>
+    <file name="u3725-a7.png" crc="4293610304" ref="editorial"/>
+    <file name="u37337.png" crc="34401687" ref="editorial"/>
+    <file name="u3733-a7.png" crc="186959634" ref="editorial"/>
+    <file name="u4247-48.png" crc="149752562" ref="editorial"/>
+    <file name="u4442-108.png" crc="6965515" ref="editorial"/>
+    <file name="u3721-4-a8.png" crc="484943976" ref="editorial"/>
+    <file name="u37258.png" crc="4148268308" ref="editorial"/>
+    <file name="u3725-a8.png" crc="3833178079" ref="editorial"/>
+    <file name="u37338.png" crc="240715938" ref="editorial"/>
+    <file name="u3733-a8.png" crc="464514230" ref="editorial"/>
+    <file name="uboot-crop-u5004.jpg" crc="445734554" seo="true" ref="artikel-1-eilat">
+      <caption webpage="artikel-1-eilat" alt=""/>
     </file>
-    <file name="266172918-kiosk-kassel-historisch-qmhg.jpg" crc="4099622830" seo="true" ref="editorial">
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
+    <file name="491715605179-crop-u5028.jpg" crc="4289971033" seo="true" ref="artikel-1-eilat">
+      <caption webpage="artikel-1-eilat" alt=""/>
     </file>
-    <file name="u3076-4.png" crc="12491089" ref="editorial"/>
-    <file name="u3076-42.png" crc="314276299" ref="editorial"/>
-    <file name="u3076-43.png" crc="314276299" ref="editorial"/>
-    <file name="u3076-44.png" crc="314276299" ref="editorial"/>
-    <file name="u3076-45.png" crc="314276299" ref="editorial"/>
-    <file name="u3076-46.png" crc="314276299" ref="editorial"/>
-    <file name="u3076-47.png" crc="314276299" ref="editorial"/>
-    <file name="u3076-48.png" crc="314276299" ref="editorial"/>
+    <file name="u4994-4.png" crc="4255473353" ref="artikel-1-eilat"/>
+    <file name="u5666-4.png" crc="166815342" ref="artikel-1-eilat"/>
+    <file name="u5690-4.png" crc="30892472" ref="artikel-1-eilat"/>
+    <file name="u5094-4.png" crc="3973545208" ref="artikel-1-eilat"/>
+    <file name="u5132.png" crc="3855939988" ref="artikel-1-eilat"/>
+    <file name="u5132-a.png" crc="209158254" ref="artikel-1-eilat"/>
+    <file name="u5139.png" crc="73042268" ref="artikel-1-eilat"/>
+    <file name="u5139-a.png" crc="4293610304" ref="artikel-1-eilat"/>
+    <file name="u5125.png" crc="34401687" ref="artikel-1-eilat"/>
+    <file name="u5125-a.png" crc="186959634" ref="artikel-1-eilat"/>
+    <file name="uboot955x586.jpg" crc="4165678567" seo="true" ref="artikel-1-eilat">
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+    </file>
+    <file name="491715605179955x661.jpg" crc="4249353779" seo="true" ref="artikel-1-eilat">
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+      <caption webpage="artikel-1-eilat" alt=""/>
+    </file>
+    <file name="u4994-42.png" crc="3768088219" ref="artikel-1-eilat"/>
+    <file name="u5666-42.png" crc="386264577" ref="artikel-1-eilat"/>
+    <file name="u5690-42.png" crc="244844380" ref="artikel-1-eilat"/>
+    <file name="u5094-42.png" crc="51527525" ref="artikel-1-eilat"/>
+    <file name="u51322.png" crc="387655123" ref="artikel-1-eilat"/>
+    <file name="u5132-a2.png" crc="4094153882" ref="artikel-1-eilat"/>
+    <file name="u51392.png" crc="3878638598" ref="artikel-1-eilat"/>
+    <file name="u5139-a2.png" crc="3829777770" ref="artikel-1-eilat"/>
+    <file name="u51252.png" crc="3820596766" ref="artikel-1-eilat"/>
+    <file name="u5125-a2.png" crc="4101712183" ref="artikel-1-eilat"/>
+    <file name="u4994-43.png" crc="3768088219" ref="artikel-1-eilat"/>
+    <file name="u5666-43.png" crc="386264577" ref="artikel-1-eilat"/>
+    <file name="u5690-43.png" crc="244844380" ref="artikel-1-eilat"/>
+    <file name="u5094-43.png" crc="51527525" ref="artikel-1-eilat"/>
+    <file name="u51323.png" crc="168955812" ref="artikel-1-eilat"/>
+    <file name="u5132-a3.png" crc="112915740" ref="artikel-1-eilat"/>
+    <file name="u51393.png" crc="3985551319" ref="artikel-1-eilat"/>
+    <file name="u5139-a3.png" crc="3878149971" ref="artikel-1-eilat"/>
+    <file name="u51253.png" crc="1723179" ref="artikel-1-eilat"/>
+    <file name="u5125-a3.png" crc="106267722" ref="artikel-1-eilat"/>
+    <file name="u4994-44.png" crc="3768088219" ref="artikel-1-eilat"/>
+    <file name="u5666-44.png" crc="386264577" ref="artikel-1-eilat"/>
+    <file name="u5690-44.png" crc="244844380" ref="artikel-1-eilat"/>
+    <file name="u5094-44.png" crc="51527525" ref="artikel-1-eilat"/>
+    <file name="u51324.png" crc="3855939988" ref="artikel-1-eilat"/>
+    <file name="u5132-a4.png" crc="209158254" ref="artikel-1-eilat"/>
+    <file name="u51394.png" crc="73042268" ref="artikel-1-eilat"/>
+    <file name="u5139-a4.png" crc="4293610304" ref="artikel-1-eilat"/>
+    <file name="u51254.png" crc="34401687" ref="artikel-1-eilat"/>
+    <file name="u5125-a4.png" crc="186959634" ref="artikel-1-eilat"/>
+    <file name="u4994-45.png" crc="3768088219" ref="artikel-1-eilat"/>
+    <file name="u5666-45.png" crc="386264577" ref="artikel-1-eilat"/>
+    <file name="u5690-45.png" crc="244844380" ref="artikel-1-eilat"/>
+    <file name="u5094-45.png" crc="51527525" ref="artikel-1-eilat"/>
+    <file name="u51325.png" crc="3855939988" ref="artikel-1-eilat"/>
+    <file name="u5132-a5.png" crc="209158254" ref="artikel-1-eilat"/>
+    <file name="u51395.png" crc="73042268" ref="artikel-1-eilat"/>
+    <file name="u5139-a5.png" crc="4293610304" ref="artikel-1-eilat"/>
+    <file name="u51255.png" crc="34401687" ref="artikel-1-eilat"/>
+    <file name="u5125-a5.png" crc="186959634" ref="artikel-1-eilat"/>
+    <file name="u4994-46.png" crc="3768088219" ref="artikel-1-eilat"/>
+    <file name="u5666-46.png" crc="386264577" ref="artikel-1-eilat"/>
+    <file name="u5690-46.png" crc="244844380" ref="artikel-1-eilat"/>
+    <file name="u5094-46.png" crc="51527525" ref="artikel-1-eilat"/>
+    <file name="u51326.png" crc="3855939988" ref="artikel-1-eilat"/>
+    <file name="u5132-a6.png" crc="209158254" ref="artikel-1-eilat"/>
+    <file name="u51396.png" crc="73042268" ref="artikel-1-eilat"/>
+    <file name="u5139-a6.png" crc="4293610304" ref="artikel-1-eilat"/>
+    <file name="u51256.png" crc="34401687" ref="artikel-1-eilat"/>
+    <file name="u5125-a6.png" crc="186959634" ref="artikel-1-eilat"/>
+    <file name="u4994-47.png" crc="3768088219" ref="artikel-1-eilat"/>
+    <file name="u5666-47.png" crc="386264577" ref="artikel-1-eilat"/>
+    <file name="u5690-47.png" crc="244844380" ref="artikel-1-eilat"/>
+    <file name="u5094-47.png" crc="51527525" ref="artikel-1-eilat"/>
+    <file name="u51327.png" crc="3855939988" ref="artikel-1-eilat"/>
+    <file name="u5132-a7.png" crc="209158254" ref="artikel-1-eilat"/>
+    <file name="u51397.png" crc="73042268" ref="artikel-1-eilat"/>
+    <file name="u5139-a7.png" crc="4293610304" ref="artikel-1-eilat"/>
+    <file name="u51257.png" crc="34401687" ref="artikel-1-eilat"/>
+    <file name="u5125-a7.png" crc="186959634" ref="artikel-1-eilat"/>
+    <file name="u4994-48.png" crc="3768088219" ref="artikel-1-eilat"/>
+    <file name="u5666-48.png" crc="386264577" ref="artikel-1-eilat"/>
+    <file name="u5690-48.png" crc="244844380" ref="artikel-1-eilat"/>
+    <file name="u5094-48.png" crc="51527525" ref="artikel-1-eilat"/>
+    <file name="u51328.png" crc="4170375875" ref="artikel-1-eilat"/>
+    <file name="u5132-a8.png" crc="484943976" ref="artikel-1-eilat"/>
+    <file name="u51398.png" crc="4148268308" ref="artikel-1-eilat"/>
+    <file name="u5139-a8.png" crc="3833178079" ref="artikel-1-eilat"/>
+    <file name="u51258.png" crc="240715938" ref="artikel-1-eilat"/>
+    <file name="u5125-a8.png" crc="464514230" ref="artikel-1-eilat"/>
   </folder>
-  <file name="index.html" crc="381836796" seo="true" mt="1542814251425" redirect="true"/>
-  <file name="editorial.html" crc="3903863790" seo="true" mt="1542745177680" redirect="true"/>
+  <file name="index.html" crc="3776389016" seo="true" mt="1542841066435" redirect="true"/>
+  <file name="editorial.html" crc="3768455573" seo="true" mt="1542841472574" redirect="true"/>
+  <file name="artikel-1-eilat.html" crc="4030249741" seo="true" mt="1542842069339" redirect="true"/>
 </manifest>

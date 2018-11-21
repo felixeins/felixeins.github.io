@@ -17,17 +17,35 @@
   </url>
   <url>
     <loc>http://das fenster zur mauer.de/editorial.html</loc>
-    <lastmod>2018-11-20</lastmod>
+    <lastmod>2018-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://das fenster zur mauer.de/images/logo-mitte.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://das fenster zur mauer.de/artikel-1-eilat.html</loc>
+    <lastmod>2018-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://das fenster zur mauer.de/images/logo-mitte.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://das fenster zur mauer.de/images/dauerausstellung-ddr-in-der-kulturbrauerei-3.jpg</image:loc>
+      <image:loc>http://das fenster zur mauer.de/images/scroll-pfeil.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://das fenster zur mauer.de/images/266172918-kiosk-kassel-historisch-qmhg.jpg</image:loc>
+      <image:loc>http://das fenster zur mauer.de/images/uboot-crop-u5004.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://das fenster zur mauer.de/images/491715605179-crop-u5028.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://das fenster zur mauer.de/images/uboot955x586.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://das fenster zur mauer.de/images/491715605179955x661.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
