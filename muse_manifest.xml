@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="das fenster zur mauer.de" resolutions="1x" timestamp="1542745280458">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="das fenster zur mauer.de" resolutions="1x" timestamp="1542814252272">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="54469456" ref="index"/>
-    <file name="nomq_index.css" crc="3977095221" ref="index"/>
+    <file name="index.css" crc="3893551683" ref="index"/>
+    <file name="nomq_index.css" crc="287567555" ref="index"/>
     <file name="editorial.css" crc="4163494404" ref="editorial"/>
     <file name="master_a-musters.css" crc="4013470013" ref="editorial"/>
     <file name="nomq_preview_master_a-musters.css" crc="3824530138" ref="editorial"/>
@@ -151,6 +151,6 @@
     <file name="u3076-47.png" crc="314276299" ref="editorial"/>
     <file name="u3076-48.png" crc="314276299" ref="editorial"/>
   </folder>
-  <file name="index.html" crc="4143023306" seo="true" mt="1542744963130" redirect="true"/>
+  <file name="index.html" crc="381836796" seo="true" mt="1542814251425" redirect="true"/>
   <file name="editorial.html" crc="3903863790" seo="true" mt="1542745177680" redirect="true"/>
 </manifest>
