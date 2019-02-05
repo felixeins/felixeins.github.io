@@ -1,321 +1,1536 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="das fenster zur mauer.de" resolutions="1x" timestamp="1542842102939">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="das fenster zur mauer.de" resolutions="1x" timestamp="1548760599958">
   <folder name="css">
-    <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="202367338" ref="index"/>
-    <file name="nomq_index.css" crc="276398454" ref="index"/>
-    <file name="editorial.css" crc="37790601" ref="editorial"/>
-    <file name="master_a-musters.css" crc="102298983" ref="editorial:artikel-1-eilat"/>
-    <file name="nomq_preview_master_a-musters.css" crc="3824530138" ref="editorial:artikel-1-eilat"/>
-    <file name="nomq_editorial.css" crc="4107014728" ref="editorial"/>
-    <file name="artikel-1-eilat.css" crc="3998423534" ref="artikel-1-eilat"/>
-    <file name="nomq_artikel-1-eilat.css" crc="480694330" ref="artikel-1-eilat"/>
+    <file name="site_global.css" crc="171550509"/>
+    <file name="master_a-musters.css" crc="43401001" ref="ausgabenübersicht:parteitag-im-windschatten:über:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:impressum:james-h.-kasler:krankheit-undoder-vergangenheit:franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="nomq_preview_master_a-musters.css" crc="3824530138" ref="ausgabenübersicht:parteitag-im-windschatten:über:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:impressum:james-h.-kasler:krankheit-undoder-vergangenheit:franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="ausgaben_bersicht.css" crc="53158093" ref="ausgabenübersicht"/>
+    <file name="nomq_ausgaben_bersicht.css" crc="214511994" ref="ausgabenübersicht"/>
+    <file name="parteitag-im-windschatten.css" crc="4071503483" ref="parteitag-im-windschatten"/>
+    <file name="nomq_parteitag-im-windschatten.css" crc="465739039" ref="parteitag-im-windschatten"/>
+    <file name="_ber.css" crc="212979631" ref="über"/>
+    <file name="nomq__ber.css" crc="3964603786" ref="über"/>
+    <file name="ins-eilat-47-tote-zwischen-selbstmord-und-strategie.css" crc="3895607155" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="nomq_ins-eilat-47-tote-zwischen-selbstmord-und-strategie.css" crc="165582075" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="index.css" crc="422406046" ref="index"/>
+    <file name="nomq_index.css" crc="513317235" ref="index"/>
+    <file name="impressum.css" crc="398001168" ref="impressum"/>
+    <file name="nomq_impressum.css" crc="129435679" ref="impressum"/>
+    <file name="james-h_-kasler.css" crc="3986956684" ref="james-h.-kasler"/>
+    <file name="nomq_james-h_-kasler.css" crc="3985620819" ref="james-h.-kasler"/>
+    <file name="krankheit-undoder-vergangenheit.css" crc="507543083" ref="krankheit-undoder-vergangenheit"/>
+    <file name="nomq_krankheit-undoder-vergangenheit.css" crc="147960001" ref="krankheit-undoder-vergangenheit"/>
+    <file name="franz-stangl-von-nazisorten-und--belastungen.css" crc="115921623" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="nomq_franz-stangl-von-nazisorten-und--belastungen.css" crc="124508150" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+  </folder>
+  <folder name="fonts">
+    <file name="ebgaramond-medium.woff" crc="3929357621"/>
+    <file name="ebgaramond-medium.eot" crc="3996113790"/>
+    <file name="ebgaramond-medium.svg" crc="277369246"/>
+    <file name="ebgaramond-bold.woff" crc="3881641036"/>
+    <file name="ebgaramond-bold.eot" crc="157496163"/>
+    <file name="ebgaramond-bold.svg" crc="189769834"/>
+    <file name="ebgaramond-mediumitalic.woff" crc="4122704228"/>
+    <file name="ebgaramond-mediumitalic.eot" crc="378124712"/>
+    <file name="ebgaramond-mediumitalic.svg" crc="334328588"/>
+    <file name="ebgaramond-regular.woff" crc="4168138493"/>
+    <file name="ebgaramond-regular.eot" crc="3910875308"/>
+    <file name="ebgaramond-regular.svg" crc="250113404"/>
+    <file name="ebgaramond-semibolditalic.woff" crc="4087024183"/>
+    <file name="ebgaramond-semibolditalic.eot" crc="4243872344"/>
+    <file name="ebgaramond-semibolditalic.svg" crc="4235432047"/>
+    <file name="ebgaramond-semibold.woff" crc="513081441"/>
+    <file name="ebgaramond-semibold.eot" crc="522536425"/>
+    <file name="ebgaramond-semibold.svg" crc="3785012604"/>
+  </folder>
+  <folder name="assets">
+    <file name="kdiiibgvideo.mp4" crc="4267593454" seo="true" mt="1543533402000"/>
+    <file name="eilat.mp4" crc="29024812" seo="true" mt="1542838973000"/>
+    <file name="oqmfnlgy3ra_1.mp4" crc="31439212" seo="true" mt="1546708590000"/>
+    <file name="b-17-down_1.mp4" crc="4246668857" seo="true" mt="1546885101000"/>
+    <file name="rotplatzparade.mp4" crc="3823575050" seo="true" mt="1547482183000"/>
+    <file name="it-up-to-you.mp4" crc="123133206" seo="true" mt="1548359843000"/>
+    <file name="funktionier-mannnnnn.mp4" crc="3896134632" seo="true" mt="1548590723000"/>
+    <file name="pow-reutrn.mp4" crc="3880986339" seo="true" mt="1548605821000"/>
+    <file name="frühling-get.mp4" crc="3929217746" seo="true" mt="1548699186000"/>
+    <file name="fv6xbevozhu_1.mp4" crc="279502665" seo="true" mt="1548717492000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:editorial:artikel-1-eilat"/>
-    <file name="museutils.js" crc="340535759" ref="index:editorial:artikel-1-eilat"/>
-    <file name="whatinput.js" crc="86476730" ref="index:editorial:artikel-1-eilat"/>
-    <file name="museconfig.js" crc="4286661555" ref="index:editorial:artikel-1-eilat"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:editorial:artikel-1-eilat"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:editorial:artikel-1-eilat"/>
-    <file name="require.js" crc="7928878" ref="index:editorial:artikel-1-eilat"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index:editorial:artikel-1-eilat"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:editorial:artikel-1-eilat"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index:editorial:artikel-1-eilat"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="museutils.js" crc="340535759" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="whatinput.js" crc="86476730" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="webpro.js" crc="4059564322" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="require.js" crc="7928878" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
   </folder>
   <folder name="images">
-    <file name="the_story_of_berlin_wall (15)_1.gif" crc="267028645" seo="true" ref="index">
+    <file name="favicon.ico" crc="3880084424" ref="index"/>
+    <file name="pfeil-weiß.svg" crc="4067090730" seo="true" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="pfeil weiß_poster_.png" crc="226930128" ref="index"/>
+    <file name="u13061-4.png" crc="465366116" ref="index"/>
+    <file name="logo-weiß.svg" crc="71599324" seo="true" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="logo weiß_poster_.png" crc="4294137102" ref="index"/>
+    <file name="stangl_gefängnis-düsseldorf.jpg" crc="152496829" seo="true" ref="index:franz-stangl-von-nazisorten-und--belastungen">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+    </file>
+    <file name="soviet_navy_personnel_(1982).jpg" crc="3974216661" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="logo-mitte.svg" crc="4122990370" seo="true" ref="index:editorial:artikel-1-eilat">
+    <file name="6f6a012a81ea613280a4b2c8f0a7747d.jpg" crc="515363290" ref="index:ausgabenübersicht">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
-      <caption webpage="editorial" alt=""/>
+      <caption webpage="ausgabenübersicht" alt="1967"/>
+      <caption webpage="ausgabenübersicht" alt="1967"/>
+      <caption webpage="ausgabenübersicht" alt="1967"/>
+      <caption webpage="ausgabenübersicht" alt="1967"/>
+      <caption webpage="ausgabenübersicht" alt="1967"/>
+      <caption webpage="ausgabenübersicht" alt="1967"/>
+      <caption webpage="ausgabenübersicht" alt="1967"/>
+      <caption webpage="ausgabenübersicht" alt="1967"/>
     </file>
-    <file name="logo mitte_poster_.png" crc="4247755654" ref="index"/>
-    <file name="scroll-pfeil.svg" crc="326955513" seo="true" ref="index:artikel-1-eilat">
+    <file name="centerfold-1-crop-u74990.png" crc="3953008520" seo="true" ref="index">
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
     </file>
-    <file name="scroll pfeil_poster_.png" crc="487391570" ref="index"/>
-    <file name="u1295-4.png" crc="4146822646" ref="index"/>
-    <file name="u1294-4.png" crc="117940809" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:editorial:artikel-1-eilat"/>
-    <file name="u781.png" crc="3855939988" ref="index"/>
-    <file name="u781-a.png" crc="209158254" ref="index"/>
-    <file name="u877.png" crc="73042268" ref="index"/>
-    <file name="u877-a.png" crc="4293610304" ref="index"/>
-    <file name="u962.png" crc="34401687" ref="index"/>
-    <file name="u962-a.png" crc="186959634" ref="index"/>
-    <file name="u1295-42.png" crc="3850172416" ref="index"/>
-    <file name="u1294-42.png" crc="4028430374" ref="index"/>
-    <file name="u7812.png" crc="387655123" ref="index"/>
-    <file name="u781-a2.png" crc="4094153882" ref="index"/>
-    <file name="u8772.png" crc="3878638598" ref="index"/>
-    <file name="u877-a2.png" crc="3829777770" ref="index"/>
-    <file name="u9622.png" crc="3820596766" ref="index"/>
-    <file name="u962-a2.png" crc="4101712183" ref="index"/>
-    <file name="u1294-43.png" crc="58872963" ref="index"/>
-    <file name="u1295-43.png" crc="3850172416" ref="index"/>
-    <file name="u7813.png" crc="168955812" ref="index"/>
-    <file name="u781-a3.png" crc="112915740" ref="index"/>
-    <file name="u8773.png" crc="3985551319" ref="index"/>
-    <file name="u877-a3.png" crc="3878149971" ref="index"/>
-    <file name="u9623.png" crc="1723179" ref="index"/>
-    <file name="u962-a3.png" crc="106267722" ref="index"/>
-    <file name="u1295-44.png" crc="4290003282" ref="index"/>
-    <file name="u7814.png" crc="491722752" ref="index"/>
-    <file name="u781-a4.png" crc="3926567515" ref="index"/>
-    <file name="u8774.png" crc="530337115" ref="index"/>
-    <file name="u877-a4.png" crc="321492500" ref="index"/>
-    <file name="u9624.png" crc="289329734" ref="index"/>
-    <file name="u962-a4.png" crc="386849787" ref="index"/>
-    <file name="u1294-44.png" crc="4049278466" ref="index"/>
-    <file name="u1295-45.png" crc="4290003282" ref="index"/>
-    <file name="u7815.png" crc="3967627276" ref="index"/>
-    <file name="u781-a5.png" crc="256806001" ref="index"/>
-    <file name="u8775.png" crc="335496206" ref="index"/>
-    <file name="u877-a5.png" crc="4252703821" ref="index"/>
-    <file name="u9625.png" crc="4092757646" ref="index"/>
-    <file name="u962-a5.png" crc="128915389" ref="index"/>
-    <file name="u1294-45.png" crc="4049278466" ref="index"/>
-    <file name="u1294-46.png" crc="4242289528" ref="index"/>
-    <file name="u1295-46.png" crc="4172978133" ref="index"/>
-    <file name="u7816.png" crc="4170375875" ref="index"/>
-    <file name="u781-a6.png" crc="484943976" ref="index"/>
-    <file name="u8776.png" crc="4148268308" ref="index"/>
-    <file name="u877-a6.png" crc="3833178079" ref="index"/>
-    <file name="u9626.png" crc="240715938" ref="index"/>
-    <file name="u962-a6.png" crc="464514230" ref="index"/>
-    <file name="u7817.png" crc="4170375875" ref="index"/>
-    <file name="u781-a7.png" crc="484943976" ref="index"/>
-    <file name="u8777.png" crc="4148268308" ref="index"/>
-    <file name="u877-a7.png" crc="3833178079" ref="index"/>
-    <file name="u9627.png" crc="240715938" ref="index"/>
-    <file name="u962-a7.png" crc="464514230" ref="index"/>
-    <file name="u1295-47.png" crc="4168809733" ref="index"/>
-    <file name="u1294-47.png" crc="441175192" ref="index"/>
-    <file name="u4247-4.png" crc="481836675" ref="editorial"/>
-    <file name="u4442-10.png" crc="4260500158" ref="editorial"/>
-    <file name="u3721-4-a.png" crc="209158254" ref="editorial"/>
-    <file name="u3725.png" crc="73042268" ref="editorial"/>
-    <file name="u3725-a.png" crc="4293610304" ref="editorial"/>
-    <file name="u3733.png" crc="34401687" ref="editorial"/>
-    <file name="u3733-a.png" crc="186959634" ref="editorial"/>
-    <file name="u4247-42.png" crc="149752562" ref="editorial"/>
-    <file name="u4442-102.png" crc="6965515" ref="editorial"/>
-    <file name="u3721-4-a2.png" crc="4094153882" ref="editorial"/>
-    <file name="u37252.png" crc="3878638598" ref="editorial"/>
-    <file name="u3725-a2.png" crc="3829777770" ref="editorial"/>
-    <file name="u37332.png" crc="3820596766" ref="editorial"/>
-    <file name="u3733-a2.png" crc="4101712183" ref="editorial"/>
-    <file name="u4247-43.png" crc="149752562" ref="editorial"/>
-    <file name="u4442-103.png" crc="6965515" ref="editorial"/>
-    <file name="u3721-4-a3.png" crc="112915740" ref="editorial"/>
-    <file name="u37253.png" crc="3985551319" ref="editorial"/>
-    <file name="u3725-a3.png" crc="3878149971" ref="editorial"/>
-    <file name="u37333.png" crc="1723179" ref="editorial"/>
-    <file name="u3733-a3.png" crc="106267722" ref="editorial"/>
-    <file name="u4247-44.png" crc="149752562" ref="editorial"/>
-    <file name="u4442-104.png" crc="6965515" ref="editorial"/>
-    <file name="u3721-4-a4.png" crc="209158254" ref="editorial"/>
-    <file name="u37254.png" crc="73042268" ref="editorial"/>
-    <file name="u3725-a4.png" crc="4293610304" ref="editorial"/>
-    <file name="u37334.png" crc="34401687" ref="editorial"/>
-    <file name="u3733-a4.png" crc="186959634" ref="editorial"/>
-    <file name="u4247-45.png" crc="149752562" ref="editorial"/>
-    <file name="u4442-105.png" crc="6965515" ref="editorial"/>
-    <file name="u3721-4-a5.png" crc="209158254" ref="editorial"/>
-    <file name="u37255.png" crc="73042268" ref="editorial"/>
-    <file name="u3725-a5.png" crc="4293610304" ref="editorial"/>
-    <file name="u37335.png" crc="34401687" ref="editorial"/>
-    <file name="u3733-a5.png" crc="186959634" ref="editorial"/>
-    <file name="u4247-46.png" crc="149752562" ref="editorial"/>
-    <file name="u4442-106.png" crc="6965515" ref="editorial"/>
-    <file name="u3721-4-a6.png" crc="209158254" ref="editorial"/>
-    <file name="u37256.png" crc="73042268" ref="editorial"/>
-    <file name="u3725-a6.png" crc="4293610304" ref="editorial"/>
-    <file name="u37336.png" crc="34401687" ref="editorial"/>
-    <file name="u3733-a6.png" crc="186959634" ref="editorial"/>
-    <file name="u4247-47.png" crc="149752562" ref="editorial"/>
-    <file name="u4442-107.png" crc="6965515" ref="editorial"/>
-    <file name="u3721-4-a7.png" crc="209158254" ref="editorial"/>
-    <file name="u37257.png" crc="73042268" ref="editorial"/>
-    <file name="u3725-a7.png" crc="4293610304" ref="editorial"/>
-    <file name="u37337.png" crc="34401687" ref="editorial"/>
-    <file name="u3733-a7.png" crc="186959634" ref="editorial"/>
-    <file name="u4247-48.png" crc="149752562" ref="editorial"/>
-    <file name="u4442-108.png" crc="6965515" ref="editorial"/>
-    <file name="u3721-4-a8.png" crc="484943976" ref="editorial"/>
-    <file name="u37258.png" crc="4148268308" ref="editorial"/>
-    <file name="u3725-a8.png" crc="3833178079" ref="editorial"/>
-    <file name="u37338.png" crc="240715938" ref="editorial"/>
-    <file name="u3733-a8.png" crc="464514230" ref="editorial"/>
-    <file name="uboot-crop-u5004.jpg" crc="445734554" seo="true" ref="artikel-1-eilat">
-      <caption webpage="artikel-1-eilat" alt=""/>
+    <file name="kasler265x201.jpg" crc="146941657" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="491715605179-crop-u5028.jpg" crc="4289971033" seo="true" ref="artikel-1-eilat">
-      <caption webpage="artikel-1-eilat" alt=""/>
+    <file name="stockhoml map.jpg" crc="4145703775" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="u4994-4.png" crc="4255473353" ref="artikel-1-eilat"/>
-    <file name="u5666-4.png" crc="166815342" ref="artikel-1-eilat"/>
-    <file name="u5690-4.png" crc="30892472" ref="artikel-1-eilat"/>
-    <file name="u5094-4.png" crc="3973545208" ref="artikel-1-eilat"/>
-    <file name="u5132.png" crc="3855939988" ref="artikel-1-eilat"/>
-    <file name="u5132-a.png" crc="209158254" ref="artikel-1-eilat"/>
-    <file name="u5139.png" crc="73042268" ref="artikel-1-eilat"/>
-    <file name="u5139-a.png" crc="4293610304" ref="artikel-1-eilat"/>
-    <file name="u5125.png" crc="34401687" ref="artikel-1-eilat"/>
-    <file name="u5125-a.png" crc="186959634" ref="artikel-1-eilat"/>
-    <file name="uboot955x586.jpg" crc="4165678567" seo="true" ref="artikel-1-eilat">
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
+    <file name="the_story_of_berlin_wall (12).jpg" crc="3882898679" seo="true" ref="index:über:impressum">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
     </file>
-    <file name="491715605179955x661.jpg" crc="4249353779" seo="true" ref="artikel-1-eilat">
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
-      <caption webpage="artikel-1-eilat" alt=""/>
+    <file name="u135896-4-a.png" crc="128377925" ref="index"/>
+    <file name="u135897-4.png" crc="3816640265" ref="index"/>
+    <file name="u135898-4.png" crc="4112580455" ref="index"/>
+    <file name="u135899-4.png" crc="4176905132" ref="index"/>
+    <file name="xweis.png" crc="3981393715" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
     </file>
-    <file name="u4994-42.png" crc="3768088219" ref="artikel-1-eilat"/>
-    <file name="u5666-42.png" crc="386264577" ref="artikel-1-eilat"/>
-    <file name="u5690-42.png" crc="244844380" ref="artikel-1-eilat"/>
-    <file name="u5094-42.png" crc="51527525" ref="artikel-1-eilat"/>
-    <file name="u51322.png" crc="387655123" ref="artikel-1-eilat"/>
-    <file name="u5132-a2.png" crc="4094153882" ref="artikel-1-eilat"/>
-    <file name="u51392.png" crc="3878638598" ref="artikel-1-eilat"/>
-    <file name="u5139-a2.png" crc="3829777770" ref="artikel-1-eilat"/>
-    <file name="u51252.png" crc="3820596766" ref="artikel-1-eilat"/>
-    <file name="u5125-a2.png" crc="4101712183" ref="artikel-1-eilat"/>
-    <file name="u4994-43.png" crc="3768088219" ref="artikel-1-eilat"/>
-    <file name="u5666-43.png" crc="386264577" ref="artikel-1-eilat"/>
-    <file name="u5690-43.png" crc="244844380" ref="artikel-1-eilat"/>
-    <file name="u5094-43.png" crc="51527525" ref="artikel-1-eilat"/>
-    <file name="u51323.png" crc="168955812" ref="artikel-1-eilat"/>
-    <file name="u5132-a3.png" crc="112915740" ref="artikel-1-eilat"/>
-    <file name="u51393.png" crc="3985551319" ref="artikel-1-eilat"/>
-    <file name="u5139-a3.png" crc="3878149971" ref="artikel-1-eilat"/>
-    <file name="u51253.png" crc="1723179" ref="artikel-1-eilat"/>
-    <file name="u5125-a3.png" crc="106267722" ref="artikel-1-eilat"/>
-    <file name="u4994-44.png" crc="3768088219" ref="artikel-1-eilat"/>
-    <file name="u5666-44.png" crc="386264577" ref="artikel-1-eilat"/>
-    <file name="u5690-44.png" crc="244844380" ref="artikel-1-eilat"/>
-    <file name="u5094-44.png" crc="51527525" ref="artikel-1-eilat"/>
-    <file name="u51324.png" crc="3855939988" ref="artikel-1-eilat"/>
-    <file name="u5132-a4.png" crc="209158254" ref="artikel-1-eilat"/>
-    <file name="u51394.png" crc="73042268" ref="artikel-1-eilat"/>
-    <file name="u5139-a4.png" crc="4293610304" ref="artikel-1-eilat"/>
-    <file name="u51254.png" crc="34401687" ref="artikel-1-eilat"/>
-    <file name="u5125-a4.png" crc="186959634" ref="artikel-1-eilat"/>
-    <file name="u4994-45.png" crc="3768088219" ref="artikel-1-eilat"/>
-    <file name="u5666-45.png" crc="386264577" ref="artikel-1-eilat"/>
-    <file name="u5690-45.png" crc="244844380" ref="artikel-1-eilat"/>
-    <file name="u5094-45.png" crc="51527525" ref="artikel-1-eilat"/>
-    <file name="u51325.png" crc="3855939988" ref="artikel-1-eilat"/>
-    <file name="u5132-a5.png" crc="209158254" ref="artikel-1-eilat"/>
-    <file name="u51395.png" crc="73042268" ref="artikel-1-eilat"/>
-    <file name="u5139-a5.png" crc="4293610304" ref="artikel-1-eilat"/>
-    <file name="u51255.png" crc="34401687" ref="artikel-1-eilat"/>
-    <file name="u5125-a5.png" crc="186959634" ref="artikel-1-eilat"/>
-    <file name="u4994-46.png" crc="3768088219" ref="artikel-1-eilat"/>
-    <file name="u5666-46.png" crc="386264577" ref="artikel-1-eilat"/>
-    <file name="u5690-46.png" crc="244844380" ref="artikel-1-eilat"/>
-    <file name="u5094-46.png" crc="51527525" ref="artikel-1-eilat"/>
-    <file name="u51326.png" crc="3855939988" ref="artikel-1-eilat"/>
-    <file name="u5132-a6.png" crc="209158254" ref="artikel-1-eilat"/>
-    <file name="u51396.png" crc="73042268" ref="artikel-1-eilat"/>
-    <file name="u5139-a6.png" crc="4293610304" ref="artikel-1-eilat"/>
-    <file name="u51256.png" crc="34401687" ref="artikel-1-eilat"/>
-    <file name="u5125-a6.png" crc="186959634" ref="artikel-1-eilat"/>
-    <file name="u4994-47.png" crc="3768088219" ref="artikel-1-eilat"/>
-    <file name="u5666-47.png" crc="386264577" ref="artikel-1-eilat"/>
-    <file name="u5690-47.png" crc="244844380" ref="artikel-1-eilat"/>
-    <file name="u5094-47.png" crc="51527525" ref="artikel-1-eilat"/>
-    <file name="u51327.png" crc="3855939988" ref="artikel-1-eilat"/>
-    <file name="u5132-a7.png" crc="209158254" ref="artikel-1-eilat"/>
-    <file name="u51397.png" crc="73042268" ref="artikel-1-eilat"/>
-    <file name="u5139-a7.png" crc="4293610304" ref="artikel-1-eilat"/>
-    <file name="u51257.png" crc="34401687" ref="artikel-1-eilat"/>
-    <file name="u5125-a7.png" crc="186959634" ref="artikel-1-eilat"/>
-    <file name="u4994-48.png" crc="3768088219" ref="artikel-1-eilat"/>
-    <file name="u5666-48.png" crc="386264577" ref="artikel-1-eilat"/>
-    <file name="u5690-48.png" crc="244844380" ref="artikel-1-eilat"/>
-    <file name="u5094-48.png" crc="51527525" ref="artikel-1-eilat"/>
-    <file name="u51328.png" crc="4170375875" ref="artikel-1-eilat"/>
-    <file name="u5132-a8.png" crc="484943976" ref="artikel-1-eilat"/>
-    <file name="u51398.png" crc="4148268308" ref="artikel-1-eilat"/>
-    <file name="u5139-a8.png" crc="3833178079" ref="artikel-1-eilat"/>
-    <file name="u51258.png" crc="240715938" ref="artikel-1-eilat"/>
-    <file name="u5125-a8.png" crc="464514230" ref="artikel-1-eilat"/>
+    <file name="u13061-42.png" crc="465366116" ref="index"/>
+    <file name="centerfold-1-crop-u749902.png" crc="3953008520" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u135896-4-a2.png" crc="3932112756" ref="index"/>
+    <file name="u135897-42.png" crc="346850877" ref="index"/>
+    <file name="u135898-42.png" crc="3773496452" ref="index"/>
+    <file name="u135899-42.png" crc="305449833" ref="index"/>
+    <file name="u135896-4-a3.png" crc="3891560988" ref="index"/>
+    <file name="u135897-43.png" crc="18473424" ref="index"/>
+    <file name="u135898-43.png" crc="357865511" ref="index"/>
+    <file name="u135899-43.png" crc="366911578" ref="index"/>
+    <file name="stangl_gefängnis-düsseldorf-crop-u74942.png" crc="3995325706" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kasler.jpg" crc="26661977" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="centerfold-1-crop-u749903.png" crc="3953008520" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u13061-43.png" crc="465366116" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:ins-eilat-47-tote-zwischen-selbstmord-und-strategie:franz-stangl-von-nazisorten-und--belastungen:über:ausgabenübersicht:impressum:parteitag-im-windschatten:james-h.-kasler:krankheit-undoder-vergangenheit"/>
+    <file name="schnellbootrakete.jpg" crc="209733279" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="ubootsw.jpg" crc="3877781619" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="491715605179.jpg" crc="4031960547" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="soviet_navy_personnel_(1982)456x299.jpg" crc="462326818" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="durchschlagstranzs.png" crc="328633417" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="operation_sandblast_track_-_all_hands_magazine_july_1960.jpg" crc="3876194277" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="copperhead_comp.jpg" crc="4229016625" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="assaultbreaker.png" crc="3759175291" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="targetsightmilan.jpg" crc="102272642" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="aircraft_carrier__kiev__in_1986_(2).jpg" crc="235842763" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u94280.png" crc="4008178362" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u94298.png" crc="3937986533" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="thailand-lined-up-for-harpoon-missile-buy-worth-24d9m.jpg" crc="3899959110" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="5a357173893f240001b68ef6_vday-crop-u94850.png" crc="93242959" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="strategie-auf-den-weltmeeren-5.png" crc="4156000834" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="schnelboot.jpg" crc="3901847317" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="ef43a88cd229aa39606c4294173bc9343fc65bc3v2_00.jpg" crc="10917484" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="sorokin.jpg" crc="3835156305" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="df-sc-82-07237.jpg" crc="3855909326" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="u135558-4.png" crc="128377925" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135559-4.png" crc="3816640265" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135560-4.png" crc="4112580455" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135561-4.png" crc="4176905132" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135558-42.png" crc="3891560988" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135559-42.png" crc="18473424" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135560-42.png" crc="357865511" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135561-42.png" crc="366911578" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="harpoontext-crop-u942802.png" crc="4008178362" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u942982.png" crc="3937986533" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="5a357173893f240001b68ef6_vday-crop-u948502.png" crc="93242959" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="491715605179-crop-u44835.png" crc="225612963" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="soviet_navy_personnel_(1982)429x281.jpg" crc="385357623" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u942983.png" crc="3937986533" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="5a357173893f240001b68ef6_vday-crop-u948503.png" crc="389953877" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="ubootsw-u46000-fr.jpg" crc="3793027324" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="harpoontext-crop-u942803.png" crc="4008178362" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="u135558-43.png" crc="3932112756" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135559-43.png" crc="346850877" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135560-43.png" crc="3773496452" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135561-43.png" crc="305449833" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135558-44.png" crc="3891560988" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135559-44.png" crc="18473424" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135560-44.png" crc="357865511" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135561-44.png" crc="366911578" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="harpoontext-crop-u942804.png" crc="4008178362" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u942984.png" crc="3937986533" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="5a357173893f240001b68ef6_vday-crop-u948504.png" crc="93242959" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u942805.png" crc="4008178362" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u942985.png" crc="3937986533" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="5a357173893f240001b68ef6_vday-crop-u948505.png" crc="93242959" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="u135558-45.png" crc="3932112756" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135559-45.png" crc="346850877" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135560-45.png" crc="3773496452" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135561-45.png" crc="305449833" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="harpoontext-crop-u942806.png" crc="4008178362" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u942986.png" crc="3937986533" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="5a357173893f240001b68ef6_vday-crop-u948506.png" crc="93242959" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="u135558-46.png" crc="3932112756" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135559-46.png" crc="346850877" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135560-46.png" crc="3773496452" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135561-46.png" crc="305449833" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="harpoontext-crop-u942807.png" crc="4008178362" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u942987.png" crc="3937986533" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="5a357173893f240001b68ef6_vday-crop-u948507.png" crc="93242959" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="u135558-47.png" crc="3932112756" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135559-47.png" crc="346850877" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135560-47.png" crc="3773496452" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135561-47.png" crc="305449833" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="harpoontext-crop-u942808.png" crc="4008178362" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="harpoontext-crop-u942988.png" crc="3937986533" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="5a357173893f240001b68ef6_vday-crop-u948508.png" crc="93242959" seo="true" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie">
+      <caption webpage="ins-eilat-47-tote-zwischen-selbstmord-und-strategie" alt=""/>
+    </file>
+    <file name="u135558-48.png" crc="3932112756" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135559-48.png" crc="346850877" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135560-48.png" crc="3773496452" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="u135561-48.png" crc="305449833" ref="ins-eilat-47-tote-zwischen-selbstmord-und-strategie"/>
+    <file name="ondevamos.jpg" crc="386624821" ref="franz-stangl-von-nazisorten-und--belastungen">
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+    </file>
+    <file name="aec791efd2f7b16b8481af251609bcf5v1_max_635x357_b3535db83dc50e27c1bb1392364c95a2.jpg" crc="4064833920" seo="true" ref="franz-stangl-von-nazisorten-und--belastungen">
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+    </file>
+    <file name="2587.png" crc="3936269661" seo="true" ref="franz-stangl-von-nazisorten-und--belastungen">
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+    </file>
+    <file name="stangl in dusseldorf prison 1971.jpg" crc="3763948466" seo="true" ref="franz-stangl-von-nazisorten-und--belastungen">
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+    </file>
+    <file name="140525_franz_stangl5.jpg" crc="4091467152" seo="true" ref="franz-stangl-von-nazisorten-und--belastungen">
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+      <caption webpage="franz-stangl-von-nazisorten-und--belastungen" alt=""/>
+    </file>
+    <file name="u135727-4.png" crc="128377925" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135728-4.png" crc="3816640265" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135729-4.png" crc="4112580455" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135730-4.png" crc="4176905132" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135727-42.png" crc="3891560988" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135728-42.png" crc="18473424" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135729-42.png" crc="357865511" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135730-42.png" crc="366911578" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135727-43.png" crc="3932112756" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135728-43.png" crc="346850877" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135729-43.png" crc="3773496452" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135730-43.png" crc="305449833" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135727-44.png" crc="3891560988" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135728-44.png" crc="18473424" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135729-44.png" crc="357865511" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135730-44.png" crc="366911578" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135727-45.png" crc="3932112756" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135728-45.png" crc="346850877" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135729-45.png" crc="3773496452" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135730-45.png" crc="305449833" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135727-46.png" crc="3932112756" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135728-46.png" crc="346850877" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135729-46.png" crc="3773496452" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135730-46.png" crc="305449833" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135727-47.png" crc="3932112756" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135728-47.png" crc="346850877" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135729-47.png" crc="3773496452" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135730-47.png" crc="305449833" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135727-48.png" crc="3932112756" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135728-48.png" crc="346850877" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135729-48.png" crc="3773496452" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="u135730-48.png" crc="305449833" ref="franz-stangl-von-nazisorten-und--belastungen"/>
+    <file name="ac946411e3cc4e22fdf888dd429ea560345x517.png" crc="4154466372" seo="true" ref="über">
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+      <caption webpage="über" alt=""/>
+    </file>
+    <file name="u136204-4.png" crc="128377925" ref="über"/>
+    <file name="u136205-4-a.png" crc="3816640265" ref="über"/>
+    <file name="u136206-4.png" crc="4112580455" ref="über"/>
+    <file name="u136207-4.png" crc="4176905132" ref="über"/>
+    <file name="u136204-42.png" crc="3891560988" ref="über"/>
+    <file name="u136205-4-a2.png" crc="18473424" ref="über"/>
+    <file name="u136206-42.png" crc="357865511" ref="über"/>
+    <file name="u136207-42.png" crc="366911578" ref="über"/>
+    <file name="ac946411e3cc4e22fdf888dd429ea560-crop-u83899.png" crc="293705349" seo="true" ref="über">
+      <caption webpage="über" alt=""/>
+    </file>
+    <file name="u136204-43.png" crc="3932112756" ref="über"/>
+    <file name="u136205-4-a3.png" crc="346850877" ref="über"/>
+    <file name="u136206-43.png" crc="3773496452" ref="über"/>
+    <file name="u136207-43.png" crc="305449833" ref="über"/>
+    <file name="u136204-44.png" crc="3891560988" ref="über"/>
+    <file name="u136205-4-a4.png" crc="18473424" ref="über"/>
+    <file name="u136206-44.png" crc="357865511" ref="über"/>
+    <file name="u136207-44.png" crc="366911578" ref="über"/>
+    <file name="u136204-45.png" crc="3932112756" ref="über"/>
+    <file name="u136205-4-a5.png" crc="346850877" ref="über"/>
+    <file name="u136206-45.png" crc="3773496452" ref="über"/>
+    <file name="u136207-45.png" crc="305449833" ref="über"/>
+    <file name="u136204-46.png" crc="3932112756" ref="über"/>
+    <file name="u136205-4-a6.png" crc="346850877" ref="über"/>
+    <file name="u136206-46.png" crc="3773496452" ref="über"/>
+    <file name="u136207-46.png" crc="305449833" ref="über"/>
+    <file name="u136204-47.png" crc="3932112756" ref="über"/>
+    <file name="u136205-4-a7.png" crc="346850877" ref="über"/>
+    <file name="u136206-47.png" crc="3773496452" ref="über"/>
+    <file name="u136207-47.png" crc="305449833" ref="über"/>
+    <file name="u136204-48.png" crc="3932112756" ref="über"/>
+    <file name="u136205-4-a8.png" crc="346850877" ref="über"/>
+    <file name="u136206-48.png" crc="3773496452" ref="über"/>
+    <file name="u136207-48.png" crc="305449833" ref="über"/>
+    <file name="266172918-kiosk-kassel-historisch-qmhg.png" crc="232367280" seo="true" ref="ausgabenübersicht">
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+    </file>
+    <file name="dauerausstellung-ddr-in-der-kulturbrauerei-3306x238.png" crc="4159991964" seo="true" ref="ausgabenübersicht">
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+      <caption webpage="ausgabenübersicht" alt=""/>
+    </file>
+    <file name="u136373-4.png" crc="128377925" ref="ausgabenübersicht"/>
+    <file name="u136374-4.png" crc="3816640265" ref="ausgabenübersicht"/>
+    <file name="u136375-4-a.png" crc="4112580455" ref="ausgabenübersicht"/>
+    <file name="u136376-4.png" crc="4176905132" ref="ausgabenübersicht"/>
+    <file name="u136373-42.png" crc="3891560988" ref="ausgabenübersicht"/>
+    <file name="u136374-42.png" crc="18473424" ref="ausgabenübersicht"/>
+    <file name="u136375-4-a2.png" crc="357865511" ref="ausgabenübersicht"/>
+    <file name="u136376-42.png" crc="366911578" ref="ausgabenübersicht"/>
+    <file name="dauerausstellung-ddr-in-der-kulturbrauerei-3.png" crc="4223095600" seo="true" ref="ausgabenübersicht">
+      <caption webpage="ausgabenübersicht" alt=""/>
+    </file>
+    <file name="u136373-43.png" crc="3932112756" ref="ausgabenübersicht"/>
+    <file name="u136374-43.png" crc="346850877" ref="ausgabenübersicht"/>
+    <file name="u136375-4-a3.png" crc="3773496452" ref="ausgabenübersicht"/>
+    <file name="u136376-43.png" crc="305449833" ref="ausgabenübersicht"/>
+    <file name="u136373-44.png" crc="3891560988" ref="ausgabenübersicht"/>
+    <file name="u136374-44.png" crc="18473424" ref="ausgabenübersicht"/>
+    <file name="u136375-4-a4.png" crc="357865511" ref="ausgabenübersicht"/>
+    <file name="u136376-44.png" crc="366911578" ref="ausgabenübersicht"/>
+    <file name="u136373-45.png" crc="3932112756" ref="ausgabenübersicht"/>
+    <file name="u136374-45.png" crc="346850877" ref="ausgabenübersicht"/>
+    <file name="u136375-4-a5.png" crc="3773496452" ref="ausgabenübersicht"/>
+    <file name="u136376-45.png" crc="305449833" ref="ausgabenübersicht"/>
+    <file name="u136373-46.png" crc="3932112756" ref="ausgabenübersicht"/>
+    <file name="u136374-46.png" crc="346850877" ref="ausgabenübersicht"/>
+    <file name="u136375-4-a6.png" crc="3773496452" ref="ausgabenübersicht"/>
+    <file name="u136376-46.png" crc="305449833" ref="ausgabenübersicht"/>
+    <file name="u136373-47.png" crc="3932112756" ref="ausgabenübersicht"/>
+    <file name="u136374-47.png" crc="346850877" ref="ausgabenübersicht"/>
+    <file name="u136375-4-a7.png" crc="3773496452" ref="ausgabenübersicht"/>
+    <file name="u136376-47.png" crc="305449833" ref="ausgabenübersicht"/>
+    <file name="u136373-48.png" crc="3932112756" ref="ausgabenübersicht"/>
+    <file name="u136374-48.png" crc="346850877" ref="ausgabenübersicht"/>
+    <file name="u136375-4-a8.png" crc="3773496452" ref="ausgabenübersicht"/>
+    <file name="u136376-48.png" crc="305449833" ref="ausgabenübersicht"/>
+    <file name="heftig.jpg" crc="4003025992" seo="true" ref="impressum">
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+      <caption webpage="impressum" alt=""/>
+    </file>
+    <file name="u82798-4.png" crc="128377925" ref="impressum"/>
+    <file name="u82800-4.png" crc="3816640265" ref="impressum"/>
+    <file name="u82799-4.png" crc="4112580455" ref="impressum"/>
+    <file name="u82797-4-a.png" crc="4176905132" ref="impressum"/>
+    <file name="u82798-42.png" crc="3891560988" ref="impressum"/>
+    <file name="u82800-42.png" crc="18473424" ref="impressum"/>
+    <file name="u82799-42.png" crc="357865511" ref="impressum"/>
+    <file name="u82797-4-a2.png" crc="366911578" ref="impressum"/>
+    <file name="u82798-43.png" crc="3932112756" ref="impressum"/>
+    <file name="u82800-43.png" crc="346850877" ref="impressum"/>
+    <file name="u82799-43.png" crc="3773496452" ref="impressum"/>
+    <file name="u82797-4-a3.png" crc="305449833" ref="impressum"/>
+    <file name="u82798-44.png" crc="3891560988" ref="impressum"/>
+    <file name="u82800-44.png" crc="18473424" ref="impressum"/>
+    <file name="u82799-44.png" crc="357865511" ref="impressum"/>
+    <file name="u82797-4-a4.png" crc="366911578" ref="impressum"/>
+    <file name="u82798-45.png" crc="3932112756" ref="impressum"/>
+    <file name="u82800-45.png" crc="346850877" ref="impressum"/>
+    <file name="u82799-45.png" crc="3773496452" ref="impressum"/>
+    <file name="u82797-4-a5.png" crc="305449833" ref="impressum"/>
+    <file name="u82798-46.png" crc="3932112756" ref="impressum"/>
+    <file name="u82800-46.png" crc="346850877" ref="impressum"/>
+    <file name="u82799-46.png" crc="3773496452" ref="impressum"/>
+    <file name="u82797-4-a6.png" crc="305449833" ref="impressum"/>
+    <file name="u82798-47.png" crc="3932112756" ref="impressum"/>
+    <file name="u82800-47.png" crc="346850877" ref="impressum"/>
+    <file name="u82799-47.png" crc="3773496452" ref="impressum"/>
+    <file name="u82797-4-a7.png" crc="305449833" ref="impressum"/>
+    <file name="u82798-48.png" crc="3932112756" ref="impressum"/>
+    <file name="u82800-48.png" crc="346850877" ref="impressum"/>
+    <file name="u82799-48.png" crc="3773496452" ref="impressum"/>
+    <file name="u82797-4-a8.png" crc="305449833" ref="impressum"/>
+    <file name="centerfold-1.jpg" crc="4039378041" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-2.jpg" crc="332074606" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="03-berlin-1964-03-12.jpg" crc="3817893022" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-1.jpg" crc="110758760" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="maxresdefault.jpg" crc="147350599" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="spiegel_1967_15_46437599s.png" crc="61455593" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="bundesarchiv_bild_183-83285-0029,_friedrich_ebert.png" crc="3761135278" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="19cf46eh9o305jpg.png" crc="70915833" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="1200px-hammer_and_sickle_red_on_transparentsvg.png" crc="4176784143" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-4arhcitekt.jpg" crc="400504554" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-4.png" crc="3770617002" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="267388-3x2-galerie_gross.jpg" crc="194731229" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="1975_cpa_4448.png" crc="3913421422" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-6.png" crc="3982354439" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7.png" crc="3961196054" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="241-1-dampf.jpg" crc="73174770" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-6welle-crop-u126227.png" crc="307998792" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7fabrik-crop-u126595.png" crc="4095402732" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7boot-crop-u126640.png" crc="338634665" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="1951_gesamtdeutsche-beratung_plakat_1991-4-038.jpg" crc="162744133" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-6logo.png" crc="4289430204" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="u135220-4.png" crc="128377925" ref="parteitag-im-windschatten"/>
+    <file name="u135221-4.png" crc="3816640265" ref="parteitag-im-windschatten"/>
+    <file name="u135222-4.png" crc="4112580455" ref="parteitag-im-windschatten"/>
+    <file name="u135223-4.png" crc="4176905132" ref="parteitag-im-windschatten"/>
+    <file name="u135220-42.png" crc="3891560988" ref="parteitag-im-windschatten"/>
+    <file name="u135221-42.png" crc="18473424" ref="parteitag-im-windschatten"/>
+    <file name="u135222-42.png" crc="357865511" ref="parteitag-im-windschatten"/>
+    <file name="u135223-42.png" crc="366911578" ref="parteitag-im-windschatten"/>
+    <file name="parteitag-6welle-crop-u1262272.png" crc="307998792" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7fabrik-crop-u1265952.png" crc="4095402732" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7boot-crop-u1266402.png" crc="338634665" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="centerfold-1-crop-u116227.png" crc="297841849" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-6welle-crop-u1262273.png" crc="290819198" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7fabrik-crop-u1265953.png" crc="519304757" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7boot-crop-u1266403.png" crc="338634665" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-6-crop-u124958.png" crc="523458785" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="1951_gesamtdeutsche-beratung_plakat_1991-4-038281x405.jpg" crc="3819060069" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-1456x457.jpg" crc="3958700032" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-2-u115494-fr.jpg" crc="421503694" ref="parteitag-im-windschatten"/>
+    <file name="u135220-43.png" crc="3932112756" ref="parteitag-im-windschatten"/>
+    <file name="u135221-43.png" crc="346850877" ref="parteitag-im-windschatten"/>
+    <file name="u135222-43.png" crc="3773496452" ref="parteitag-im-windschatten"/>
+    <file name="u135223-43.png" crc="305449833" ref="parteitag-im-windschatten"/>
+    <file name="u135220-44.png" crc="3891560988" ref="parteitag-im-windschatten"/>
+    <file name="u135221-44.png" crc="18473424" ref="parteitag-im-windschatten"/>
+    <file name="u135222-44.png" crc="357865511" ref="parteitag-im-windschatten"/>
+    <file name="u135223-44.png" crc="366911578" ref="parteitag-im-windschatten"/>
+    <file name="parteitag-6welle-crop-u1262274.png" crc="307998792" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7fabrik-crop-u1265954.png" crc="4095402732" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7boot-crop-u1266404.png" crc="338634665" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="u135220-45.png" crc="3932112756" ref="parteitag-im-windschatten"/>
+    <file name="u135221-45.png" crc="346850877" ref="parteitag-im-windschatten"/>
+    <file name="u135222-45.png" crc="3773496452" ref="parteitag-im-windschatten"/>
+    <file name="u135223-45.png" crc="305449833" ref="parteitag-im-windschatten"/>
+    <file name="parteitag-6welle-crop-u1262275.png" crc="307998792" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7fabrik-crop-u1265955.png" crc="4095402732" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7boot-crop-u1266405.png" crc="338634665" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="u135220-46.png" crc="3932112756" ref="parteitag-im-windschatten"/>
+    <file name="u135221-46.png" crc="346850877" ref="parteitag-im-windschatten"/>
+    <file name="u135222-46.png" crc="3773496452" ref="parteitag-im-windschatten"/>
+    <file name="u135223-46.png" crc="305449833" ref="parteitag-im-windschatten"/>
+    <file name="parteitag-6welle-crop-u1262276.png" crc="307998792" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7fabrik-crop-u1265956.png" crc="4095402732" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7boot-crop-u1266406.png" crc="338634665" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="u135220-47.png" crc="3932112756" ref="parteitag-im-windschatten"/>
+    <file name="u135221-47.png" crc="346850877" ref="parteitag-im-windschatten"/>
+    <file name="u135222-47.png" crc="3773496452" ref="parteitag-im-windschatten"/>
+    <file name="u135223-47.png" crc="305449833" ref="parteitag-im-windschatten"/>
+    <file name="parteitag-6welle-crop-u1262277.png" crc="307998792" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7fabrik-crop-u1265957.png" crc="4095402732" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7boot-crop-u1266407.png" crc="338634665" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="u135220-48.png" crc="3932112756" ref="parteitag-im-windschatten"/>
+    <file name="u135221-48.png" crc="346850877" ref="parteitag-im-windschatten"/>
+    <file name="u135222-48.png" crc="3773496452" ref="parteitag-im-windschatten"/>
+    <file name="u135223-48.png" crc="305449833" ref="parteitag-im-windschatten"/>
+    <file name="parteitag-6welle-crop-u1262278.png" crc="307998792" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7fabrik-crop-u1265958.png" crc="4095402732" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="parteitag-7boot-crop-u1266408.png" crc="338634665" seo="true" ref="parteitag-im-windschatten">
+      <caption webpage="parteitag-im-windschatten" alt=""/>
+    </file>
+    <file name="col-james-h-kasler-usaf-(1).png" crc="4221339790" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="jams-h-kasler.png" crc="4220640353" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="abschuß-2.jpg" crc="3855860785" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="j3krsrs-crop-u104330.png" crc="325714786" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="q225flag.png" crc="3861614702" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="abschuß-brief929x812.png" crc="154735143" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="abschuß-1.jpg" crc="4075984178" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="1733x2427_untld__17_by_pandoraicons.png" crc="3988058488" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="81f39c6d06a9cc5fdc9be4f999a85a48--vintage-advertisements-vintage-ads.jpg" crc="4017205905" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="hanoihilton.jpg" crc="306176425" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="f-84g.jpg" crc="128234215" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="u135389-4.png" crc="128377925" ref="james-h.-kasler"/>
+    <file name="u135390-4.png" crc="3816640265" ref="james-h.-kasler"/>
+    <file name="u135391-4.png" crc="4112580455" ref="james-h.-kasler"/>
+    <file name="u135392-4.png" crc="4176905132" ref="james-h.-kasler"/>
+    <file name="j3krsrs-crop-u1043302.png" crc="325714786" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="u135389-42.png" crc="3891560988" ref="james-h.-kasler"/>
+    <file name="u135390-42.png" crc="18473424" ref="james-h.-kasler"/>
+    <file name="u135391-42.png" crc="357865511" ref="james-h.-kasler"/>
+    <file name="u135392-42.png" crc="366911578" ref="james-h.-kasler"/>
+    <file name="j3krsrs-crop-u1043303.png" crc="3959352411" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="abschuß-brief-crop-u105403.png" crc="3780262801" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="hanoihilton-crop-u112302.png" crc="350796404" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="col-james-h-kasler-usaf-(1)-crop-u97127.png" crc="187514544" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="u135389-43.png" crc="3932112756" ref="james-h.-kasler"/>
+    <file name="u135390-43.png" crc="346850877" ref="james-h.-kasler"/>
+    <file name="u135391-43.png" crc="3773496452" ref="james-h.-kasler"/>
+    <file name="u135392-43.png" crc="305449833" ref="james-h.-kasler"/>
+    <file name="j3krsrs-crop-u1043304.png" crc="325714786" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="u135389-44.png" crc="3891560988" ref="james-h.-kasler"/>
+    <file name="u135390-44.png" crc="18473424" ref="james-h.-kasler"/>
+    <file name="u135391-44.png" crc="357865511" ref="james-h.-kasler"/>
+    <file name="u135392-44.png" crc="366911578" ref="james-h.-kasler"/>
+    <file name="j3krsrs-crop-u1043305.png" crc="325714786" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="u135389-45.png" crc="3932112756" ref="james-h.-kasler"/>
+    <file name="u135390-45.png" crc="346850877" ref="james-h.-kasler"/>
+    <file name="u135391-45.png" crc="3773496452" ref="james-h.-kasler"/>
+    <file name="u135392-45.png" crc="305449833" ref="james-h.-kasler"/>
+    <file name="j3krsrs-crop-u1043306.png" crc="325714786" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="u135389-46.png" crc="3932112756" ref="james-h.-kasler"/>
+    <file name="u135390-46.png" crc="346850877" ref="james-h.-kasler"/>
+    <file name="u135391-46.png" crc="3773496452" ref="james-h.-kasler"/>
+    <file name="u135392-46.png" crc="305449833" ref="james-h.-kasler"/>
+    <file name="j3krsrs-crop-u1043307.png" crc="325714786" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="u135389-47.png" crc="3932112756" ref="james-h.-kasler"/>
+    <file name="u135390-47.png" crc="346850877" ref="james-h.-kasler"/>
+    <file name="u135391-47.png" crc="3773496452" ref="james-h.-kasler"/>
+    <file name="u135392-47.png" crc="305449833" ref="james-h.-kasler"/>
+    <file name="j3krsrs-crop-u1043308.png" crc="325714786" seo="true" ref="james-h.-kasler">
+      <caption webpage="james-h.-kasler" alt=""/>
+    </file>
+    <file name="u135389-48.png" crc="3932112756" ref="james-h.-kasler"/>
+    <file name="u135390-48.png" crc="346850877" ref="james-h.-kasler"/>
+    <file name="u135391-48.png" crc="3773496452" ref="james-h.-kasler"/>
+    <file name="u135392-48.png" crc="305449833" ref="james-h.-kasler"/>
+    <file name="1200px-tysklands_ambassad_2008.png" crc="4027377915" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="spiegel_1967_40_46353343.jpg" crc="3954148517" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="stockhoml-map.png" crc="3935607533" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="bundesarchiv_b_145_bild-f002349-0009,_bonn,_bundestag,_pariser_verträge-crop-u132987.png" crc="3850004693" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="vbr5002.jpg" crc="56928314" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="klaus-schuetz-ist-tot-crop-u133409.png" crc="3899095618" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="1200px-tysklands_ambassad_2008358x248.png" crc="17885683" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="ba010063.png" crc="3953883708" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="ts4-large.png" crc="4069027286" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="ribbentropdetentionreport.jpg" crc="4157559928" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="u136035-4.png" crc="128377925" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136036-4.png" crc="3816640265" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136037-4.png" crc="4112580455" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136038-4.png" crc="4176905132" ref="krankheit-undoder-vergangenheit"/>
+    <file name="bundesarchiv_b_145_bild-f002349-0009,_bonn,_bundestag,_pariser_verträge-crop-u1329872.png" crc="3850004693" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="u136035-42.png" crc="3891560988" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136036-42.png" crc="18473424" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136037-42.png" crc="357865511" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136038-42.png" crc="366911578" ref="krankheit-undoder-vergangenheit"/>
+    <file name="klaus-schuetz-ist-tot-crop-u1334092.png" crc="3899095618" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="spiegel_1967_40_46353343-crop-u112941.png" crc="404460264" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="bundesarchiv_b_145_bild-f002349-0009,_bonn,_bundestag,_pariser_verträge-crop-u1329873.png" crc="3850004693" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="klaus-schuetz-ist-tot.jpg" crc="4178235819" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="stockhoml-map702x497.png" crc="335636271" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="u136035-43.png" crc="3932112756" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136036-43.png" crc="346850877" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136037-43.png" crc="3773496452" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136038-43.png" crc="305449833" ref="krankheit-undoder-vergangenheit"/>
+    <file name="bundesarchiv_b_145_bild-f002349-0009,_bonn,_bundestag,_pariser_verträge-crop-u1329874.png" crc="3850004693" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="u136035-44.png" crc="3891560988" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136036-44.png" crc="18473424" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136037-44.png" crc="357865511" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136038-44.png" crc="366911578" ref="krankheit-undoder-vergangenheit"/>
+    <file name="klaus-schuetz-ist-tot-crop-u1334093.png" crc="3899095618" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="u136035-45.png" crc="3932112756" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136036-45.png" crc="346850877" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136037-45.png" crc="3773496452" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136038-45.png" crc="305449833" ref="krankheit-undoder-vergangenheit"/>
+    <file name="bundesarchiv_b_145_bild-f002349-0009,_bonn,_bundestag,_pariser_verträge-crop-u1329875.png" crc="3850004693" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="klaus-schuetz-ist-tot-crop-u1334094.png" crc="3899095618" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="u136035-46.png" crc="3932112756" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136036-46.png" crc="346850877" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136037-46.png" crc="3773496452" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136038-46.png" crc="305449833" ref="krankheit-undoder-vergangenheit"/>
+    <file name="bundesarchiv_b_145_bild-f002349-0009,_bonn,_bundestag,_pariser_verträge-crop-u1329876.png" crc="3850004693" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="klaus-schuetz-ist-tot-crop-u1334095.png" crc="3899095618" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="u136035-47.png" crc="3932112756" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136036-47.png" crc="346850877" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136037-47.png" crc="3773496452" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136038-47.png" crc="305449833" ref="krankheit-undoder-vergangenheit"/>
+    <file name="bundesarchiv_b_145_bild-f002349-0009,_bonn,_bundestag,_pariser_verträge-crop-u1329877.png" crc="3850004693" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="klaus-schuetz-ist-tot-crop-u1334096.png" crc="3899095618" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="u136035-48.png" crc="3932112756" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136036-48.png" crc="346850877" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136037-48.png" crc="3773496452" ref="krankheit-undoder-vergangenheit"/>
+    <file name="u136038-48.png" crc="305449833" ref="krankheit-undoder-vergangenheit"/>
+    <file name="bundesarchiv_b_145_bild-f002349-0009,_bonn,_bundestag,_pariser_verträge-crop-u1329878.png" crc="3850004693" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
+    <file name="klaus-schuetz-ist-tot-crop-u1334097.png" crc="3899095618" seo="true" ref="krankheit-undoder-vergangenheit">
+      <caption webpage="krankheit-undoder-vergangenheit" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3776389016" seo="true" mt="1542841066435" redirect="true"/>
-  <file name="editorial.html" crc="3768455573" seo="true" mt="1542841472574" redirect="true"/>
-  <file name="artikel-1-eilat.html" crc="4030249741" seo="true" mt="1542842069339" redirect="true"/>
+  <file name="index.html" crc="4028320842" seo="true" mt="1548760173077" redirect="true"/>
+  <file name="ins-eilat-47-tote-zwischen-selbstmord-und-strategie.html" crc="87346186" seo="true" mt="1548760173083" redirect="true"/>
+  <file name="franz-stangl-von-nazisorten-und--belastungen.html" crc="317428710" seo="true" mt="1548760173075" redirect="true"/>
+  <file name="über.html" crc="429179007" seo="true" mt="1548760505970" redirect="true"/>
+  <file name="ausgabenübersicht.html" crc="4106174502" seo="true" mt="1548760501318" redirect="true"/>
+  <file name="impressum.html" crc="17756750" seo="true" mt="1548760516159" redirect="true"/>
+  <file name="parteitag-im-windschatten.html" crc="4140847249" seo="true" mt="1548760173072" redirect="true"/>
+  <file name="james-h.-kasler.html" crc="241353227" seo="true" mt="1548760173081" redirect="true"/>
+  <file name="krankheit-undoder-vergangenheit.html" crc="528749428" seo="true" mt="1548760173073" redirect="true"/>
 </manifest>
