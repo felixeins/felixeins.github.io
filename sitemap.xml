@@ -6,13 +6,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://felixtho.de/images/logos.png</image:loc>
+      <image:loc>http://felixtho.de/images/instagram.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://felixtho.de/images/logos391x136.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://felixtho.de/images/logos349x121.png</image:loc>
+      <image:loc>http://felixtho.de/images/mail.png</image:loc>
     </image:image>
   </url>
 </urlset>

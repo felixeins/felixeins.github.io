@@ -1,8 +1,7 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="felixtho.de" resolutions="1x" timestamp="1584984248975">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="felixtho.de" resolutions="1x" timestamp="1584996833703">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="114246918" ref="index"/>
-    <file name="nomq_index.css" crc="3928058617" ref="index"/>
+    <file name="index.css" crc="164033027" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="akzidenzgroteskbq-bold.woff" crc="4247984215"/>
@@ -15,20 +14,15 @@
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="3936894949" ref="index"/>
     <file name="jquery.watch.js" crc="522499760" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="95814420" ref="index"/>
     <file name="require.js" crc="4177726516" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="logos.png" crc="3938729620" seo="true" ref="index">
+    <file name="instagram.png" crc="159596590" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="logos391x136.png" crc="4199431561" seo="true" ref="index">
+    <file name="mail.png" crc="3798045938" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="logos349x121.png" crc="4016961320" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="285899077" seo="true" mt="1584984187003" redirect="true"/>
+  <file name="index.html" crc="159338613" seo="true" mt="1584996820369" redirect="true"/>
 </manifest>

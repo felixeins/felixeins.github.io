@@ -1,4 +1,41 @@
-.version.index{color:#000006;background-color:#CF4506;}@font-face{font-family:'__Akzidenz-Grotesk BQ_5';src:url('../fonts/akzidenzgroteskbq-bold.eot');src:local('☺'), url('../fonts/akzidenzgroteskbq-bold.woff') format('woff'), url('../fonts/akzidenzgroteskbq-bold.svg') format('svg');font-weight:700;font-style:normal;}#page{background-color:transparent;z-index:1;margin-right:auto;margin-left:auto;background-image:none;border-width:0px;width:100%;border-color:#000000;}#u114{background-color:transparent;z-index:2;position:relative;}#u114_img{width:100%;}#u124-6{background-color:transparent;z-index:4;position:relative;text-transform:uppercase;font-weight:700;font-family:'__Akzidenz-Grotesk BQ_5';min-height:76px;}.html{background-color:#FFFFFF;}body{position:relative;}@media (min-width: 954px), print{#muse_css_mq{background-color:#FFFFFF;}#bp_infinity.active{display:block;}#page{min-height:227.80615212527965px;padding-top:210px;padding-bottom:62.19384787472035px;max-width:1920px;}#u114{width:40.94%;margin-left:29.54%;}#u124-6{font-size:30px;line-height:33px;top:-3px;margin-bottom:-3px;width:46.88%;margin-left:52.09%;}.css_verticalspacer .verticalspacer{height:calc(100vh - 616px);}}@media (min-width: 430px) and (max-width: 953px){#muse_css_mq{background-color:#0003b9;}#bp_953.active{display:block;}#page{min-height:208px;padding-top:210px;padding-bottom:82px;max-width:953px;}#u114{width:40.93%;margin-left:29.49%;}#u124-6{font-size:20px;line-height:22px;top:-3px;margin-bottom:-3px;width:46.91%;margin-left:52.05%;}.css_verticalspacer .verticalspacer{height:calc(100vh - 499px);}body{overflow-x:hidden;}}@media (max-width: 429px){/*
+/*
 
 */
-#muse_css_mq{background-color:#0001ad;}#bp_429.active{display:block;}#page{min-height:197px;padding-top:180px;padding-bottom:123px;max-width:429px;}#u114{width:81.12%;margin-left:9.33%;}#u124-6{font-size:20px;line-height:22px;width:46.86%;margin-left:43.83%;}.css_verticalspacer .verticalspacer{height:calc(100vh - 499px);}body{overflow-x:hidden;min-width:320px;}}
+.version.index{color:#000009;background-color:#C6F203;}#muse_css_mq{background-color:#FFFFFF;}#page{z-index:1;min-height:460px;background-image:none;border-width:0px;border-color:#000000;background-color:transparent;width:100%;max-width:1920px;margin-left:auto;margin-right:auto;}#u421-6{z-index:2;min-height:63px;background-color:transparent;color:#FFFFFF;line-height:32px;font-size:30px;text-align:left;font-family:'__Akzidenz-Grotesk BQ_5';font-weight:700;position:fixed;top:310px;left:20px;width:88.03%;max-width:1690px;}#u641{z-index:8;width:56px;border-width:0px;border-color:transparent;background-color:transparent;padding-bottom:24px;position:fixed;top:381px;left:22px;}#u560{z-index:9;width:24px;background-color:transparent;position:fixed;top:381px;left:22px;}#u582{z-index:11;width:24px;background-color:transparent;position:fixed;top:381px;left:54px;}.css_verticalspacer .verticalspacer{height:calc(100vh - 460px);}.html{background-color:#000000;}body{position:relative;min-width:320px;}@font-face{font-family:'__Akzidenz-Grotesk BQ_5';src:url('../fonts/akzidenzgroteskbq-bold.eot');src:local('☺'), url('../fonts/akzidenzgroteskbq-bold.woff') format('woff'), url('../fonts/akzidenzgroteskbq-bold.svg') format('svg');font-weight:700;font-style:normal;}
+
+* { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
